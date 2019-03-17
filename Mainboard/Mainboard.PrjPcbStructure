@@ -1,3 +1,4 @@
 Record=TopLevelDocument|FileName=Hardware Achitecture.SchDoc
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=Audio Power Supply|SchDesignator=Audio Power Supply|FileName=Audio Power Supply.SchDoc|SymbolType=Normal|RawFileName=Audio Power Supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=DAC1|SchDesignator=Repeat(DAC,1,2)|FileName=Audio-Out.SchDoc|SymbolType=Normal|RawFileName=Audio-Out.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=DAC2|SchDesignator=Repeat(DAC,1,2)|FileName=Audio-Out.SchDoc|SymbolType=Normal|RawFileName=Audio-Out.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
