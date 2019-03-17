@@ -1,8 +1,8 @@
 [ProjectGroup]
 Version=1.0
-[Project0]
-ProjectPath=Mainboard\Mainboard.PrjPcb
 [Project1]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
+[Project2]
+ProjectPath=Mainboard\Mainboard.PrjPcb
 [Project3]
 ProjectPath=Toradex Ixora\Ixora.PrjPCB
