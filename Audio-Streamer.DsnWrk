@@ -7,6 +7,6 @@ ProjectPath=Libraries\Audio-Streamer.LibPkg
 [Project2]
 ProjectPath=Toradex Ixora\Ixora.PrjPCB
 [Project4]
-ProjectPath=Mainboard\Mainboard.PrjPcb
-[Project5]
 ProjectPath=Power-Supply\Power-Supply.PrjPcb
+[Project5]
+ProjectPath=Mainboard\Mainboard.PrjPcb
