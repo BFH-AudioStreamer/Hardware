@@ -1,2 +1,3 @@
+Record=TopLevelDocument|FileName=Audio-Streamer.MbsDoc
 Record=DiagramHierarchy|SourceDocument=Audio-Streamer.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Power-Supply\Power-Supply.PrjPcb
 Record=SubProject|SourceDocument=Audio-Streamer.MbsDoc|ProjectPath=..\Power-Supply\Power-Supply.PrjPcb
