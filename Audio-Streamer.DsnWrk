@@ -3,10 +3,10 @@ Version=1.0
 [Project1]
 ProjectPath=Audio-Streamer-Multi-Board\Audio-Streamer-Multi-Board.PrjMbd
 [Project2]
-ProjectPath=Libraries\Audio-Streamer.LibPkg
-[Project3]
-ProjectPath=Toradex Ixora\Ixora.PrjPCB
-[Project4]
 ProjectPath=Power-Supply\Power-Supply.PrjPcb
-[Project5]
+[Project3]
 ProjectPath=Mainboard\Mainboard.PrjPcb
+[Project4]
+ProjectPath=Libraries\Audio-Streamer.LibPkg
+[Project5]
+ProjectPath=Toradex Ixora\Ixora.PrjPCB
