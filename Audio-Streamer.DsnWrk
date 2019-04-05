@@ -5,8 +5,8 @@ ProjectPath=Audio-Streamer-Multi-Board\Audio-Streamer-Multi-Board.PrjMbd
 [Project2]
 ProjectPath=Power-Supply\Power-Supply.PrjPcb
 [Project3]
-ProjectPath=Mainboard\Mainboard.PrjPcb
-[Project4]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
-[Project5]
+[Project4]
 ProjectPath=Toradex Ixora\Ixora.PrjPCB
+[Project5]
+ProjectPath=Mainboard\Mainboard.PrjPcb
