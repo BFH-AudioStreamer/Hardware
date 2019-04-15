@@ -9,4 +9,6 @@ ProjectPath=Mainboard\Mainboard.PrjPcb
 [Project4]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
 [Project5]
+ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
+[Project6]
 ProjectPath=Toradex Ixora\Ixora.PrjPCB

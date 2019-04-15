@@ -1,20 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Settings>
   <ProjectInfo>
-    <ProjectName>Ixora Carrier Board</ProjectName>
-    <ProjectVersion>V1.1A</ProjectVersion>
-    <ProjectDescription>The Ixora Carrier Board is a fully featured carrier board for the Apalis module family. Along with the standard interfaces, Ixora comes with a combination of widely used Industrial interfaces like CAN 2.0b, I2C, and GPIOs which make it perfectly suitable for Industrial and embedded solutions. It also features mSATA, Mini PCIe and Micro SD slots, which lend the board its high flexibility and scalability. The Ixora is designed to be used as either SW development board or for small to medium volumes products.</ProjectDescription>
-    <CustomerNote>Example configuration, can be used as template for customer configurations. 
-
-The Pin Filter contains only pins that are freely available on general purpose connectors. It does not contain pins on dedicated connectors such as USB, LVDS, or HDMI. The filter is disabled per default. </CustomerNote>
+    <ProjectName>Audio Streamer</ProjectName>
+    <ProjectVersion>V1.0</ProjectVersion>
+    <ProjectDescription></ProjectDescription>
+    <CustomerNote></CustomerNote>
   </ProjectInfo>
   <VersionInfo Version="1.3.12" />
   <ModuleInfo>
     <ModuleGroup>Apalis</ModuleGroup>
     <SelectedModule>iMX6</SelectedModule>
     <SelectedModule>iMX8</SelectedModule>
-    <SelectedModule>T30</SelectedModule>
-    <SelectedModule>TK1</SelectedModule>
   </ModuleInfo>
   <PinFilterInfo>
     <HidePins>true</HidePins>
@@ -80,8 +76,8 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="MISC_MLB_1_DIFFERENTIAL_SIG[:underscore]P" checked="-1" />
     <Function name="MLB_SIG_P" checked="1" pinid="73" pinname="MLB_SIG_P" parentname="MISC_MLB_1_DIFFERENTIAL_SIG[:underscore]P" />
     <Category name="MISC_DEBUG[:underscore]TRACE_CLK" checked="-1" />
-    <Function name="ARM_TRACE_CLK" checked="-1" pinid="77" pinname="CSI0_DATA_EN" parentname="MISC_DEBUG[:underscore]TRACE_CLK" />
-    <Function name="TRACE-CLK" checked="1" pinid="179" pinname="KB_ROW4" parentname="MISC_DEBUG[:underscore]TRACE_CLK" />
+    <Function name="ARM_TRACE_CLK" checked="1" pinid="77" pinname="CSI0_DATA_EN" parentname="MISC_DEBUG[:underscore]TRACE_CLK" />
+    <Function name="TRACE-CLK" checked="-1" pinid="179" pinname="KB_ROW4" parentname="MISC_DEBUG[:underscore]TRACE_CLK" />
     <Category name="MISC_DEBUG[:underscore]TRACE_D15" checked="-1" />
     <Function name="ARM_TRACE15" checked="1" pinid="175" pinname="CSI0_DATA18" parentname="MISC_DEBUG[:underscore]TRACE_D15" />
     <Category name="MISC_DEBUG[:underscore]TRACE_D14" checked="-1" />
@@ -455,25 +451,25 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="MMC_2_D1" checked="-1" />
     <Function name="SD2_DATA1" checked="1" pinid="188" pinname="SD2_DATA1" parentname="MMC_2_D1" />
     <Category name="MMC_3_CLK" checked="-1" />
-    <Function name="SD4_CLK" checked="-1" pinid="85" pinname="SD4_CLK" parentname="MMC_3_CLK" />
-    <Function name="SDMMC2.A-SCLK" checked="1" pinid="1" pinname="KB_ROW10" parentname="MMC_3_CLK" />
+    <Function name="SD4_CLK" checked="1" pinid="85" pinname="SD4_CLK" parentname="MMC_3_CLK" />
+    <Function name="SDMMC2.A-SCLK" checked="-1" pinid="1" pinname="KB_ROW10" parentname="MMC_3_CLK" />
     <Function name="SDMMC2.C-SCLK" checked="-1" pinid="200" pinname="DAP1_SCLK" parentname="MMC_3_CLK" />
     <Function name="SDHC0_DCLK (K20)" checked="-1" pinid="301" pinname="PTE2/ LLWU_P1 (K20)" parentname="MMC_3_CLK" />
     <Category name="MMC_3_RESET" checked="-1" />
     <Function name="SD4_RESET" checked="1" pinid="91" pinname="NAND_ALE" parentname="MMC_3_RESET" />
     <Category name="MMC_3_D0" checked="-1" />
-    <Function name="SD4_DATA0" checked="-1" pinid="95" pinname="SD4_DATA0" parentname="MMC_3_D0" />
+    <Function name="SD4_DATA0" checked="1" pinid="95" pinname="SD4_DATA0" parentname="MMC_3_D0" />
     <Function name="SDMMC2.A-DAT0" checked="-1" pinid="5" pinname="KB_ROW12" parentname="MMC_3_D0" />
     <Function name="SDMMC2.C-DAT0" checked="-1" pinid="202" pinname="DAP1_DIN" parentname="MMC_3_D0" />
-    <Function name="SDHC0_D0 (K20)" checked="1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="MMC_3_D0" />
+    <Function name="SDHC0_D0 (K20)" checked="-1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="MMC_3_D0" />
     <Category name="MMC_3_CMD" checked="-1" />
-    <Function name="SD4_CMD" checked="-1" pinid="99" pinname="SD4_CMD" parentname="MMC_3_CMD" />
+    <Function name="SD4_CMD" checked="1" pinid="99" pinname="SD4_CMD" parentname="MMC_3_CMD" />
     <Function name="SDMMC2.A-CMD" checked="-1" pinid="3" pinname="KB_ROW11" parentname="MMC_3_CMD" />
     <Function name="SDMMC2.C-CMD" checked="-1" pinid="204" pinname="DAP1_FS" parentname="MMC_3_CMD" />
-    <Function name="SDHC0_CMD (K20)" checked="1" pinid="179" pinname="PTE3 (K20)" parentname="MMC_3_CMD" />
+    <Function name="SDHC0_CMD (K20)" checked="-1" pinid="179" pinname="PTE3 (K20)" parentname="MMC_3_CMD" />
     <Category name="MMC_3_D3" checked="-1" />
-    <Function name="SD4_DATA3" checked="-1" pinid="123" pinname="SD4_DATA3" parentname="MMC_3_D3" />
-    <Function name="SDMMC2.A-DAT3" checked="1" pinid="15" pinname="KB_ROW15" parentname="MMC_3_D3" />
+    <Function name="SD4_DATA3" checked="1" pinid="123" pinname="SD4_DATA3" parentname="MMC_3_D3" />
+    <Function name="SDMMC2.A-DAT3" checked="-1" pinid="15" pinname="KB_ROW15" parentname="MMC_3_D3" />
     <Function name="SDMMC2.C-DAT3" checked="-1" pinid="217" pinname="SPDIF_IN" parentname="MMC_3_D3" />
     <Function name="SDHC0_D3 (K20)" checked="-1" pinid="185" pinname="PTE4/ LLWU_P2 (K20)" parentname="MMC_3_D3" />
     <Category name="MMC_3_D1" checked="-1" />
@@ -482,8 +478,8 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="SDMMC2.C-DAT1" checked="-1" pinid="196" pinname="DAP1_DOUT" parentname="MMC_3_D1" />
     <Function name="SDHC0_D1 (K20)" checked="-1" pinid="175" pinname="PTE0 (K20)" parentname="MMC_3_D1" />
     <Category name="MMC_3_D2" checked="-1" />
-    <Function name="SD4_DATA2" checked="-1" pinid="8" pinname="SD4_DATA2" parentname="MMC_3_D2" />
-    <Function name="SDMMC2.A-DAT2" checked="1" pinid="11" pinname="KB_ROW14" parentname="MMC_3_D2" />
+    <Function name="SD4_DATA2" checked="1" pinid="8" pinname="SD4_DATA2" parentname="MMC_3_D2" />
+    <Function name="SDMMC2.A-DAT2" checked="-1" pinid="11" pinname="KB_ROW14" parentname="MMC_3_D2" />
     <Function name="SDMMC2.C-DAT2" checked="-1" pinid="215" pinname="SPDIF_OUT" parentname="MMC_3_D2" />
     <Function name="SDHC0_D2 (K20)" checked="-1" pinid="181" pinname="PTE5 (K20)" parentname="MMC_3_D2" />
     <Category name="MMC_3_D4" checked="-1" />
@@ -512,31 +508,31 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="SD1_WP" checked="-1" pinid="2" pinname="GPIO09" parentname="MMC_1_WP" />
     <Function name="SD1_WP" checked="1" pinid="164" pinname="DI0_PIN04" parentname="MMC_1_WP" />
     <Function name="CONN.USDHC1.WP" checked="-1" pinid="156" pinname="USDHC1_DATA6" parentname="MMC_1_WP" />
-    <Category name="MMC_1_CD#" checked="1" />
+    <Category name="MMC_1_CD#" checked="-1" />
     <Function name="SD1_CD_B" checked="-1" pinid="4" pinname="GPIO01" parentname="MMC_1_CD#" />
     <Function name="GPIO4_IO20" checked="1" pinid="164" pinname="DI0_PIN04" parentname="MMC_1_CD#" />
     <Function name="CONN.USDHC1.CD_B" checked="-1" pinid="158" pinname="USDHC1_DATA7" parentname="MMC_1_CD#" />
     <Category name="MMC_1_VSELECT" checked="-1" />
     <Function name="SD1_VSELECT" checked="1" pinid="140" pinname="KEY_COL1" parentname="MMC_1_VSELECT" />
-    <Category name="MMC_1_D2" checked="1" />
+    <Category name="MMC_1_D2" checked="-1" />
     <Function name="SD1_DATA2" checked="1" pinid="144" pinname="SD1_DATA2" parentname="MMC_1_D2" />
-    <Category name="MMC_1_D3" checked="1" />
+    <Category name="MMC_1_D3" checked="-1" />
     <Function name="SD1_DATA3" checked="1" pinid="146" pinname="SD1_DATA3" parentname="MMC_1_D3" />
     <Category name="MMC_1_D4" checked="-1" />
     <Function name="SD1_DATA4" checked="1" pinid="148" pinname="NAND_DATA00" parentname="MMC_1_D4" />
-    <Category name="MMC_1_CMD" checked="1" />
+    <Category name="MMC_1_CMD" checked="-1" />
     <Function name="SD1_CMD" checked="1" pinid="150" pinname="SD1_CMD" parentname="MMC_1_CMD" />
     <Category name="MMC_1_D5" checked="-1" />
     <Function name="SD1_DATA5" checked="1" pinid="152" pinname="NAND_DATA01" parentname="MMC_1_D5" />
-    <Category name="MMC_1_CLK" checked="1" />
+    <Category name="MMC_1_CLK" checked="-1" />
     <Function name="SD1_CLK" checked="1" pinid="154" pinname="SD1_CLK" parentname="MMC_1_CLK" />
     <Category name="MMC_1_D6" checked="-1" />
     <Function name="SD1_DATA6" checked="1" pinid="156" pinname="NAND_DATA02" parentname="MMC_1_D6" />
     <Category name="MMC_1_D7" checked="-1" />
     <Function name="SD1_DATA7" checked="1" pinid="158" pinname="NAND_DATA03" parentname="MMC_1_D7" />
-    <Category name="MMC_1_D0" checked="1" />
+    <Category name="MMC_1_D0" checked="-1" />
     <Function name="SD1_DATA0" checked="1" pinid="160" pinname="SD1_DATA0" parentname="MMC_1_D0" />
-    <Category name="MMC_1_D1" checked="1" />
+    <Category name="MMC_1_D1" checked="-1" />
     <Function name="SD1_DATA1" checked="1" pinid="162" pinname="SD1_DATA1" parentname="MMC_1_D1" />
     <Category name="MMC_1_STROBE" checked="-1" />
     <Function name="CONN.USDHC1.STROBE" checked="1" pinid="159" pinname="USDHC1_STROBE" parentname="MMC_1_STROBE" />
@@ -967,9 +963,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="LCD_1_24bit_HSYNC" checked="1" />
     <Function name="IPU1_DI1_PIN02" checked="1" pinid="247" pinname="EIM_AD11" parentname="LCD_1_24bit_HSYNC" />
     <Function name="IPU1_DI1_PIN02" checked="-1" pinid="124" pinname="EIM_DATA23" parentname="LCD_1_24bit_HSYNC" />
-    <Category name="LCD_1_24bit_R0" checked="-1" />
+    <Category name="LCD_1_24bit_R0" checked="1" />
     <Function name="IPU1_DISP1_DATA16" checked="1" pinid="251" pinname="EIM_ADDR21" parentname="LCD_1_24bit_R0" />
-    <Category name="LCD_1_24bit_R1" checked="-1" />
+    <Category name="LCD_1_24bit_R1" checked="1" />
     <Function name="IPU1_DISP1_DATA17" checked="1" pinid="253" pinname="EIM_ADDR22" parentname="LCD_1_24bit_R1" />
     <Category name="LCD_1_24bit_R2" checked="1" />
     <Function name="IPU1_DISP1_DATA18" checked="1" pinid="255" pinname="EIM_ADDR23" parentname="LCD_1_24bit_R2" />
@@ -983,9 +979,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="IPU1_DISP1_DATA22" checked="1" pinid="263" pinname="EIM_DATA26" parentname="LCD_1_24bit_R6" />
     <Category name="LCD_1_24bit_R7" checked="1" />
     <Function name="IPU1_DISP1_DATA23" checked="1" pinid="265" pinname="EIM_DATA27" parentname="LCD_1_24bit_R7" />
-    <Category name="LCD_1_24bit_G0" checked="-1" />
+    <Category name="LCD_1_24bit_G0" checked="1" />
     <Function name="IPU1_DISP1_DATA08" checked="1" pinid="269" pinname="EIM_AD01" parentname="LCD_1_24bit_G0" />
-    <Category name="LCD_1_24bit_G1" checked="-1" />
+    <Category name="LCD_1_24bit_G1" checked="1" />
     <Function name="IPU1_DISP1_DATA09" checked="1" pinid="271" pinname="EIM_AD00" parentname="LCD_1_24bit_G1" />
     <Category name="LCD_1_24bit_G2" checked="1" />
     <Function name="IPU1_DISP1_DATA10" checked="1" pinid="273" pinname="EIM_EB1" parentname="LCD_1_24bit_G2" />
@@ -999,9 +995,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="IPU1_DISP1_DATA14" checked="1" pinid="281" pinname="EIM_ADDR19" parentname="LCD_1_24bit_G6" />
     <Category name="LCD_1_24bit_G7" checked="1" />
     <Function name="IPU1_DISP1_DATA15" checked="1" pinid="283" pinname="EIM_ADDR20" parentname="LCD_1_24bit_G7" />
-    <Category name="LCD_1_24bit_B0" checked="-1" />
+    <Category name="LCD_1_24bit_B0" checked="1" />
     <Function name="IPU1_DISP1_DATA00" checked="1" pinid="287" pinname="EIM_AD09" parentname="LCD_1_24bit_B0" />
-    <Category name="LCD_1_24bit_B1" checked="-1" />
+    <Category name="LCD_1_24bit_B1" checked="1" />
     <Function name="IPU1_DISP1_DATA01" checked="1" pinid="289" pinname="EIM_AD08" parentname="LCD_1_24bit_B1" />
     <Category name="LCD_1_24bit_B2" checked="1" />
     <Function name="IPU1_DISP1_DATA02" checked="1" pinid="291" pinname="EIM_AD07" parentname="LCD_1_24bit_B2" />
@@ -1027,17 +1023,17 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="IPU1_DI1_PIN02" checked="-1" pinid="247" pinname="EIM_AD11" parentname="LCD_1_18bit_HSYNC" />
     <Function name="IPU1_DI1_PIN02" checked="1" pinid="124" pinname="EIM_DATA23" parentname="LCD_1_18bit_HSYNC" />
     <Category name="LCD_1_18bit_R4" checked="-1" />
-    <Function name="IPU1_DISP1_DATA16" checked="-1" pinid="251" pinname="EIM_ADDR21" parentname="LCD_1_18bit_R4" />
-    <Function name="LCD0-D16" checked="1" pinid="263" pinname="LCD_D16" parentname="LCD_1_18bit_R4" />
+    <Function name="IPU1_DISP1_DATA16" checked="1" pinid="251" pinname="EIM_ADDR21" parentname="LCD_1_18bit_R4" />
+    <Function name="LCD0-D16" checked="-1" pinid="263" pinname="LCD_D16" parentname="LCD_1_18bit_R4" />
     <Category name="LCD_1_18bit_R5" checked="-1" />
-    <Function name="IPU1_DISP1_DATA17" checked="-1" pinid="253" pinname="EIM_ADDR22" parentname="LCD_1_18bit_R5" />
-    <Function name="LCD0-D17" checked="1" pinid="265" pinname="LCD_D17" parentname="LCD_1_18bit_R5" />
+    <Function name="IPU1_DISP1_DATA17" checked="1" pinid="253" pinname="EIM_ADDR22" parentname="LCD_1_18bit_R5" />
+    <Function name="LCD0-D17" checked="-1" pinid="265" pinname="LCD_D17" parentname="LCD_1_18bit_R5" />
     <Category name="LCD_1_18bit_G2" checked="-1" />
-    <Function name="IPU1_DISP1_DATA08" checked="-1" pinid="269" pinname="EIM_AD01" parentname="LCD_1_18bit_G2" />
-    <Function name="LCD0-D8" checked="1" pinid="277" pinname="LCD_D8" parentname="LCD_1_18bit_G2" />
+    <Function name="IPU1_DISP1_DATA08" checked="1" pinid="269" pinname="EIM_AD01" parentname="LCD_1_18bit_G2" />
+    <Function name="LCD0-D8" checked="-1" pinid="277" pinname="LCD_D8" parentname="LCD_1_18bit_G2" />
     <Category name="LCD_1_18bit_G3" checked="-1" />
-    <Function name="IPU1_DISP1_DATA09" checked="-1" pinid="271" pinname="EIM_AD00" parentname="LCD_1_18bit_G3" />
-    <Function name="LCD0-D9" checked="1" pinid="279" pinname="LCD_D9" parentname="LCD_1_18bit_G3" />
+    <Function name="IPU1_DISP1_DATA09" checked="1" pinid="271" pinname="EIM_AD00" parentname="LCD_1_18bit_G3" />
+    <Function name="LCD0-D9" checked="-1" pinid="279" pinname="LCD_D9" parentname="LCD_1_18bit_G3" />
     <Category name="LCD_1_18bit_G4" checked="-1" />
     <Function name="IPU1_DISP1_DATA10" checked="1" pinid="273" pinname="EIM_EB1" parentname="LCD_1_18bit_G4" />
     <Function name="LCD0-D10" checked="-1" pinid="281" pinname="LCD_D10" parentname="LCD_1_18bit_G4" />
@@ -1057,11 +1053,11 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="IPU1_DISP1_DATA15" checked="1" pinid="283" pinname="EIM_ADDR20" parentname="LCD_1_18bit_R3" />
     <Function name="LCD0-D15" checked="-1" pinid="261" pinname="LCD_D15" parentname="LCD_1_18bit_R3" />
     <Category name="LCD_1_18bit_B0" checked="-1" />
-    <Function name="IPU1_DISP1_DATA00" checked="-1" pinid="287" pinname="EIM_AD09" parentname="LCD_1_18bit_B0" />
-    <Function name="LCD0-D0" checked="1" pinid="291" pinname="LCD_D0" parentname="LCD_1_18bit_B0" />
+    <Function name="IPU1_DISP1_DATA00" checked="1" pinid="287" pinname="EIM_AD09" parentname="LCD_1_18bit_B0" />
+    <Function name="LCD0-D0" checked="-1" pinid="291" pinname="LCD_D0" parentname="LCD_1_18bit_B0" />
     <Category name="LCD_1_18bit_B1" checked="-1" />
-    <Function name="IPU1_DISP1_DATA01" checked="-1" pinid="289" pinname="EIM_AD08" parentname="LCD_1_18bit_B1" />
-    <Function name="LCD0-D1" checked="1" pinid="293" pinname="LCD_D1" parentname="LCD_1_18bit_B1" />
+    <Function name="IPU1_DISP1_DATA01" checked="1" pinid="289" pinname="EIM_AD08" parentname="LCD_1_18bit_B1" />
+    <Function name="LCD0-D1" checked="-1" pinid="293" pinname="LCD_D1" parentname="LCD_1_18bit_B1" />
     <Category name="LCD_1_18bit_B2" checked="-1" />
     <Function name="IPU1_DISP1_DATA02" checked="1" pinid="291" pinname="EIM_AD07" parentname="LCD_1_18bit_B2" />
     <Function name="LCD0-D2" checked="-1" pinid="295" pinname="LCD_D2" parentname="LCD_1_18bit_B2" />
@@ -1092,11 +1088,11 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="IPU1_DI1_PIN02" checked="-1" pinid="247" pinname="EIM_AD11" parentname="LCD_1_16bit_HSYNC" />
     <Function name="IPU1_DI1_PIN02" checked="1" pinid="124" pinname="EIM_DATA23" parentname="LCD_1_16bit_HSYNC" />
     <Category name="LCD_1_16bit_G3" checked="-1" />
-    <Function name="IPU1_DISP1_DATA08" checked="-1" pinid="269" pinname="EIM_AD01" parentname="LCD_1_16bit_G3" />
-    <Function name="LCD0-D9" checked="1" pinid="279" pinname="LCD_D9" parentname="LCD_1_16bit_G3" />
+    <Function name="IPU1_DISP1_DATA08" checked="1" pinid="269" pinname="EIM_AD01" parentname="LCD_1_16bit_G3" />
+    <Function name="LCD0-D9" checked="-1" pinid="279" pinname="LCD_D9" parentname="LCD_1_16bit_G3" />
     <Category name="LCD_1_16bit_G4" checked="-1" />
-    <Function name="IPU1_DISP1_DATA09" checked="-1" pinid="271" pinname="EIM_AD00" parentname="LCD_1_16bit_G4" />
-    <Function name="LCD0-D10" checked="1" pinid="281" pinname="LCD_D10" parentname="LCD_1_16bit_G4" />
+    <Function name="IPU1_DISP1_DATA09" checked="1" pinid="271" pinname="EIM_AD00" parentname="LCD_1_16bit_G4" />
+    <Function name="LCD0-D10" checked="-1" pinid="281" pinname="LCD_D10" parentname="LCD_1_16bit_G4" />
     <Category name="LCD_1_16bit_G5" checked="-1" />
     <Function name="IPU1_DISP1_DATA10" checked="1" pinid="273" pinname="EIM_EB1" parentname="LCD_1_16bit_G5" />
     <Function name="LCD0-D11" checked="-1" pinid="283" pinname="LCD_D11" parentname="LCD_1_16bit_G5" />
@@ -1116,11 +1112,11 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="IPU1_DISP1_DATA15" checked="1" pinid="283" pinname="EIM_ADDR20" parentname="LCD_1_16bit_R4" />
     <Function name="LCD0-D17" checked="-1" pinid="265" pinname="LCD_D17" parentname="LCD_1_16bit_R4" />
     <Category name="LCD_1_16bit_B0" checked="-1" />
-    <Function name="IPU1_DISP1_DATA00" checked="-1" pinid="287" pinname="EIM_AD09" parentname="LCD_1_16bit_B0" />
-    <Function name="LCD0-D1" checked="1" pinid="293" pinname="LCD_D1" parentname="LCD_1_16bit_B0" />
+    <Function name="IPU1_DISP1_DATA00" checked="1" pinid="287" pinname="EIM_AD09" parentname="LCD_1_16bit_B0" />
+    <Function name="LCD0-D1" checked="-1" pinid="293" pinname="LCD_D1" parentname="LCD_1_16bit_B0" />
     <Category name="LCD_1_16bit_B1" checked="-1" />
-    <Function name="IPU1_DISP1_DATA01" checked="-1" pinid="289" pinname="EIM_AD08" parentname="LCD_1_16bit_B1" />
-    <Function name="LCD0-D2" checked="1" pinid="295" pinname="LCD_D2" parentname="LCD_1_16bit_B1" />
+    <Function name="IPU1_DISP1_DATA01" checked="1" pinid="289" pinname="EIM_AD08" parentname="LCD_1_16bit_B1" />
+    <Function name="LCD0-D2" checked="-1" pinid="295" pinname="LCD_D2" parentname="LCD_1_16bit_B1" />
     <Category name="LCD_1_16bit_B2" checked="-1" />
     <Function name="IPU1_DISP1_DATA02" checked="1" pinid="291" pinname="EIM_AD07" parentname="LCD_1_16bit_B2" />
     <Function name="LCD0-D3" checked="-1" pinid="297" pinname="LCD_D3" parentname="LCD_1_16bit_B2" />
@@ -1325,30 +1321,30 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="AUD.ESAI0.TX2_RX3" checked="1" pinid="181" pinname="ESAI0_TX2_RX3" parentname="DIGITAL[:underscore]AUDIO_4_ESAI_TX2" />
     <Category name="DIGITAL[:underscore]AUDIO_4_ESAI_RX3" checked="-1" />
     <Function name="AUD.ESAI0.TX2_RX3" checked="1" pinid="181" pinname="ESAI0_TX2_RX3" parentname="DIGITAL[:underscore]AUDIO_4_ESAI_RX3" />
-    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" checked="-1" />
-    <Function name="CCM_CLKO1" checked="1" pinid="197" pinname="CSI0_HSYNC" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" />
+    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" checked="1" />
+    <Function name="CCM_CLKO1" checked="-1" pinid="197" pinname="CSI0_HSYNC" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" />
     <Function name="CCM_CLKO1" checked="-1" pinid="84" pinname="GPIO00" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" />
-    <Function name="CCM_CLKO1" checked="-1" pinid="194" pinname="GPIO19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" />
-    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" checked="-1" />
-    <Function name="AUD5_TXD" checked="1" pinid="134" pinname="KEY_ROW0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" />
-    <Function name="AUD5_TXD" checked="-1" pinid="196" pinname="DISP0_DATA17" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" />
+    <Function name="CCM_CLKO1" checked="1" pinid="194" pinname="GPIO19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_MCLK" />
+    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" checked="1" />
+    <Function name="AUD5_TXD" checked="-1" pinid="134" pinname="KEY_ROW0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" />
+    <Function name="AUD5_TXD" checked="1" pinid="196" pinname="DISP0_DATA17" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" />
     <Function name="AUD.SAI0.TXD" checked="-1" pinid="225" pinname="SPI0_SDO" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DOUT" />
-    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_SCLK" checked="-1" />
-    <Function name="AUD5_TXC" checked="1" pinid="136" pinname="KEY_COL0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_SCLK" />
-    <Function name="AUD5_TXC" checked="-1" pinid="200" pinname="DISP0_DATA16" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_SCLK" />
+    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_SCLK" checked="1" />
+    <Function name="AUD5_TXC" checked="-1" pinid="136" pinname="KEY_COL0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_SCLK" />
+    <Function name="AUD5_TXC" checked="1" pinid="200" pinname="DISP0_DATA16" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_SCLK" />
     <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DIN" checked="-1" />
     <Function name="AUD5_RXD" checked="1" pinid="138" pinname="KEY_ROW1" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DIN" />
     <Function name="AUD5_RXD" checked="-1" pinid="202" pinname="DISP0_DATA19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DIN" />
     <Function name="AUD.SAI0.RXD" checked="-1" pinid="223" pinname="SPI0_SDI" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_DIN" />
-    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_LRCLK" checked="-1" />
-    <Function name="AUD5_TXFS" checked="1" pinid="140" pinname="KEY_COL1" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_LRCLK" />
-    <Function name="AUD5_TXFS" checked="-1" pinid="204" pinname="DISP0_DATA18" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_LRCLK" />
-    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_RESET" checked="-1" />
+    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_LRCLK" checked="1" />
+    <Function name="AUD5_TXFS" checked="-1" pinid="140" pinname="KEY_COL1" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_LRCLK" />
+    <Function name="AUD5_TXFS" checked="1" pinid="204" pinname="DISP0_DATA18" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_LRCLK" />
+    <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_RESET" checked="1" />
     <Function name="GPIO2_IO27" checked="1" pinid="198" pinname="EIM_LBA" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]MASTER_RESET" />
     <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_MCLK" checked="-1" />
-    <Function name="CCM_CLKO1" checked="1" pinid="197" pinname="CSI0_HSYNC" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_MCLK" />
+    <Function name="CCM_CLKO1" checked="-1" pinid="197" pinname="CSI0_HSYNC" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_MCLK" />
     <Function name="CCM_CLKO1" checked="-1" pinid="84" pinname="GPIO00" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_MCLK" />
-    <Function name="CCM_CLKO1" checked="-1" pinid="194" pinname="GPIO19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_MCLK" />
+    <Function name="CCM_CLKO1" checked="1" pinid="194" pinname="GPIO19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_MCLK" />
     <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_LRCLK" checked="-1" />
     <Function name="AUD5_RXFS" checked="1" pinid="110" pinname="EIM_DATA24" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_LRCLK" />
     <Function name="AUD.SAI0.RXFS" checked="-1" pinid="227" pinname="SPI0_CS0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_LRCLK" />
@@ -1358,12 +1354,12 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="AUD.SAI0.RXC" checked="-1" pinid="221" pinname="SPI0_SCK" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_SCLK" />
     <Function name="I2S0-SCLK" checked="-1" pinid="200" pinname="DAP1_SCLK" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_SCLK" />
     <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DOUT" checked="-1" />
-    <Function name="AUD5_TXD" checked="1" pinid="134" pinname="KEY_ROW0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DOUT" />
-    <Function name="AUD5_TXD" checked="-1" pinid="196" pinname="DISP0_DATA17" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DOUT" />
+    <Function name="AUD5_TXD" checked="-1" pinid="134" pinname="KEY_ROW0" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DOUT" />
+    <Function name="AUD5_TXD" checked="1" pinid="196" pinname="DISP0_DATA17" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DOUT" />
     <Function name="AUD.SAI0.TXD" checked="-1" pinid="225" pinname="SPI0_SDO" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DOUT" />
     <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DIN" checked="-1" />
-    <Function name="AUD5_RXD" checked="1" pinid="138" pinname="KEY_ROW1" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DIN" />
-    <Function name="AUD5_RXD" checked="-1" pinid="202" pinname="DISP0_DATA19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DIN" />
+    <Function name="AUD5_RXD" checked="-1" pinid="138" pinname="KEY_ROW1" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DIN" />
+    <Function name="AUD5_RXD" checked="1" pinid="202" pinname="DISP0_DATA19" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DIN" />
     <Function name="AUD.SAI0.RXD" checked="-1" pinid="223" pinname="SPI0_SDI" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_DIN" />
     <Category name="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_RESET" checked="-1" />
     <Function name="GPIO2_IO27" checked="1" pinid="198" pinname="EIM_LBA" parentname="DIGITAL[:underscore]AUDIO_1_I2S[:underscore]SLAVE_RESET" />
@@ -1609,21 +1605,21 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="KBC-COL5" checked="-1" pinid="99" pinname="KB_COL5" parentname="KEYPAD_COL5" />
     <Category name="KEYPAD_ROW6" checked="-1" />
     <Function name="KEY_ROW7" checked="-1" pinid="211" pinname="CSI0_DATA09" parentname="KEYPAD_ROW6" />
-    <Function name="KEY_ROW7" checked="-1" pinid="186" pinname="SD2_DATA0" parentname="KEYPAD_ROW6" />
-    <Function name="KBC-ROW6" checked="1" pinid="175" pinname="KB_ROW6" parentname="KEYPAD_ROW6" />
+    <Function name="KEY_ROW7" checked="1" pinid="186" pinname="SD2_DATA0" parentname="KEYPAD_ROW6" />
+    <Function name="KBC-ROW6" checked="-1" pinid="175" pinname="KB_ROW6" parentname="KEYPAD_ROW6" />
     <Category name="KEYPAD_COL3" checked="-1" />
     <Function name="KEY_COL5" checked="-1" pinid="221" pinname="CSI0_DATA04" parentname="KEYPAD_COL3" />
     <Function name="KEY_COL5" checked="-1" pinid="84" pinname="GPIO00" parentname="KEYPAD_COL3" />
-    <Function name="KEY_COL5" checked="-1" pinid="184" pinname="SD2_CLK" parentname="KEYPAD_COL3" />
+    <Function name="KEY_COL5" checked="1" pinid="184" pinname="SD2_CLK" parentname="KEYPAD_COL3" />
     <Function name="KEY_COL5" checked="-1" pinid="194" pinname="GPIO19" parentname="KEYPAD_COL3" />
     <Function name="LSIO.KPP0.COL3" checked="-1" pinid="311" pinname="ADC_IN3" parentname="KEYPAD_COL3" />
-    <Function name="KBC-COL3" checked="1" pinid="195" pinname="KB_COL3" parentname="KEYPAD_COL3" />
+    <Function name="KBC-COL3" checked="-1" pinid="195" pinname="KB_COL3" parentname="KEYPAD_COL3" />
     <Category name="KEYPAD_COL4" checked="-1" />
     <Function name="KEY_COL6" checked="-1" pinid="223" pinname="CSI0_DATA06" parentname="KEYPAD_COL4" />
     <Function name="KEY_COL6" checked="-1" pinid="2" pinname="GPIO09" parentname="KEYPAD_COL4" />
-    <Function name="KEY_COL6" checked="-1" pinid="178" pinname="SD2_DATA3" parentname="KEYPAD_COL4" />
+    <Function name="KEY_COL6" checked="1" pinid="178" pinname="SD2_DATA3" parentname="KEYPAD_COL4" />
     <Function name="LSIO.KPP0.COL6" checked="-1" pinid="4" pinname="GPT0_COMPARE" parentname="KEYPAD_COL4" />
-    <Function name="KBC-COL4" checked="1" pinid="197" pinname="KB_COL4" parentname="KEYPAD_COL4" />
+    <Function name="KBC-COL4" checked="-1" pinid="197" pinname="KB_COL4" parentname="KEYPAD_COL4" />
     <Category name="KEYPAD_ROW4" checked="-1" />
     <Function name="KEY_ROW5" checked="-1" pinid="225" pinname="CSI0_DATA05" parentname="KEYPAD_ROW4" />
     <Function name="KEY_ROW5" checked="-1" pinid="4" pinname="GPIO01" parentname="KEYPAD_ROW4" />
@@ -1655,9 +1651,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="LSIO.KPP0.COL1" checked="-1" pinid="307" pinname="ADC_IN1" parentname="KEYPAD_COL1" />
     <Function name="KBC-COL1" checked="-1" pinid="17" pinname="KB_COL1" parentname="KEYPAD_COL1" />
     <Category name="KEYPAD_ROW2" checked="-1" />
-    <Function name="KEY_ROW2" checked="-1" pinid="220" pinname="KEY_ROW2" parentname="KEYPAD_ROW2" />
+    <Function name="KEY_ROW2" checked="1" pinid="220" pinname="KEY_ROW2" parentname="KEYPAD_ROW2" />
     <Function name="LSIO.KPP0.ROW2" checked="-1" pinid="319" pinname="ADC_IN6" parentname="KEYPAD_ROW2" />
-    <Function name="KBC-ROW2" checked="1" pinid="183" pinname="KB_ROW2" parentname="KEYPAD_ROW2" />
+    <Function name="KBC-ROW2" checked="-1" pinid="183" pinname="KB_ROW2" parentname="KEYPAD_ROW2" />
     <Category name="KEYPAD_ROW10" checked="-1" />
     <Function name="KBC-ROW10" checked="1" pinid="1" pinname="KB_ROW10" parentname="KEYPAD_ROW10" />
     <Category name="KEYPAD_ROW11" checked="-1" />
@@ -1706,25 +1702,25 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="SD_1_CLK[:underscore]LB[:underscore]IN" checked="-1" />
     <Function name="SDMMC3_CLK_LB_IN" checked="1" pinid="156" pinname="SDMMC3_CLK_LB_IN" parentname="SD_1_CLK[:underscore]LB[:underscore]IN" />
     <Category name="SD_3_CLK" checked="-1" />
-    <Function name="SD4_CLK" checked="-1" pinid="85" pinname="SD4_CLK" parentname="SD_3_CLK" />
-    <Function name="SDMMC2.A-SCLK" checked="1" pinid="1" pinname="KB_ROW10" parentname="SD_3_CLK" />
+    <Function name="SD4_CLK" checked="1" pinid="85" pinname="SD4_CLK" parentname="SD_3_CLK" />
+    <Function name="SDMMC2.A-SCLK" checked="-1" pinid="1" pinname="KB_ROW10" parentname="SD_3_CLK" />
     <Function name="SDMMC2.C-SCLK" checked="-1" pinid="200" pinname="DAP1_SCLK" parentname="SD_3_CLK" />
     <Function name="SDHC0_DCLK (K20)" checked="-1" pinid="301" pinname="PTE2/ LLWU_P1 (K20)" parentname="SD_3_CLK" />
     <Category name="SD_3_RESET" checked="-1" />
     <Function name="SD4_RESET" checked="1" pinid="91" pinname="NAND_ALE" parentname="SD_3_RESET" />
     <Category name="SD_3_D0" checked="-1" />
-    <Function name="SD4_DATA0" checked="-1" pinid="95" pinname="SD4_DATA0" parentname="SD_3_D0" />
+    <Function name="SD4_DATA0" checked="1" pinid="95" pinname="SD4_DATA0" parentname="SD_3_D0" />
     <Function name="SDMMC2.A-DAT0" checked="-1" pinid="5" pinname="KB_ROW12" parentname="SD_3_D0" />
     <Function name="SDMMC2.C-DAT0" checked="-1" pinid="202" pinname="DAP1_DIN" parentname="SD_3_D0" />
-    <Function name="SDHC0_D0 (K20)" checked="1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="SD_3_D0" />
+    <Function name="SDHC0_D0 (K20)" checked="-1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="SD_3_D0" />
     <Category name="SD_3_CMD" checked="-1" />
-    <Function name="SD4_CMD" checked="-1" pinid="99" pinname="SD4_CMD" parentname="SD_3_CMD" />
+    <Function name="SD4_CMD" checked="1" pinid="99" pinname="SD4_CMD" parentname="SD_3_CMD" />
     <Function name="SDMMC2.A-CMD" checked="-1" pinid="3" pinname="KB_ROW11" parentname="SD_3_CMD" />
     <Function name="SDMMC2.C-CMD" checked="-1" pinid="204" pinname="DAP1_FS" parentname="SD_3_CMD" />
-    <Function name="SDHC0_CMD (K20)" checked="1" pinid="179" pinname="PTE3 (K20)" parentname="SD_3_CMD" />
+    <Function name="SDHC0_CMD (K20)" checked="-1" pinid="179" pinname="PTE3 (K20)" parentname="SD_3_CMD" />
     <Category name="SD_3_D3" checked="-1" />
-    <Function name="SD4_DATA3" checked="-1" pinid="123" pinname="SD4_DATA3" parentname="SD_3_D3" />
-    <Function name="SDMMC2.A-DAT3" checked="1" pinid="15" pinname="KB_ROW15" parentname="SD_3_D3" />
+    <Function name="SD4_DATA3" checked="1" pinid="123" pinname="SD4_DATA3" parentname="SD_3_D3" />
+    <Function name="SDMMC2.A-DAT3" checked="-1" pinid="15" pinname="KB_ROW15" parentname="SD_3_D3" />
     <Function name="SDMMC2.C-DAT3" checked="-1" pinid="217" pinname="SPDIF_IN" parentname="SD_3_D3" />
     <Function name="SDHC0_D3 (K20)" checked="-1" pinid="185" pinname="PTE4/ LLWU_P2 (K20)" parentname="SD_3_D3" />
     <Category name="SD_3_D1" checked="-1" />
@@ -1733,8 +1729,8 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="SDMMC2.C-DAT1" checked="-1" pinid="196" pinname="DAP1_DOUT" parentname="SD_3_D1" />
     <Function name="SDHC0_D1 (K20)" checked="-1" pinid="175" pinname="PTE0 (K20)" parentname="SD_3_D1" />
     <Category name="SD_3_D2" checked="-1" />
-    <Function name="SD4_DATA2" checked="-1" pinid="8" pinname="SD4_DATA2" parentname="SD_3_D2" />
-    <Function name="SDMMC2.A-DAT2" checked="1" pinid="11" pinname="KB_ROW14" parentname="SD_3_D2" />
+    <Function name="SD4_DATA2" checked="1" pinid="8" pinname="SD4_DATA2" parentname="SD_3_D2" />
+    <Function name="SDMMC2.A-DAT2" checked="-1" pinid="11" pinname="KB_ROW14" parentname="SD_3_D2" />
     <Function name="SDMMC2.C-DAT2" checked="-1" pinid="215" pinname="SPDIF_OUT" parentname="SD_3_D2" />
     <Function name="SDHC0_D2 (K20)" checked="-1" pinid="181" pinname="PTE5 (K20)" parentname="SD_3_D2" />
     <Category name="SD_3_VSELECT" checked="-1" />
@@ -1810,19 +1806,19 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="DMA.I2C1.SDA" checked="-1" pinid="262" pinname="USB_SS3_TC2" parentname="I2C_5_SDA" />
     <Function name="I2C6_DAT" checked="1" pinid="71" pinname="DP_AUX_CH0_N" parentname="I2C_5_SDA" />
     <Category name="I2C_7_SDA" checked="-1" />
-    <Function name="LVDS0.I2C1.SDA" checked="-1" pinid="140" pinname="LVDS0_I2C1_SDA" parentname="I2C_7_SDA" />
-    <Function name="I2C1_SDA (K20)" checked="1" pinid="175" pinname="PTE0 (K20)" parentname="I2C_7_SDA" />
+    <Function name="LVDS0.I2C1.SDA" checked="1" pinid="140" pinname="LVDS0_I2C1_SDA" parentname="I2C_7_SDA" />
+    <Function name="I2C1_SDA (K20)" checked="-1" pinid="175" pinname="PTE0 (K20)" parentname="I2C_7_SDA" />
     <Category name="I2C_7_SCL" checked="-1" />
-    <Function name="LVDS0.I2C1.SCL" checked="-1" pinid="138" pinname="LVDS0_I2C1_SCL" parentname="I2C_7_SCL" />
-    <Function name="I2C1_SCL (K20)" checked="1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="I2C_7_SCL" />
+    <Function name="LVDS0.I2C1.SCL" checked="1" pinid="138" pinname="LVDS0_I2C1_SCL" parentname="I2C_7_SCL" />
+    <Function name="I2C1_SCL (K20)" checked="-1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="I2C_7_SCL" />
     <Category name="I2C_6_SCL" checked="-1" />
-    <Function name="LVDS0.I2C0.SCL" checked="-1" pinid="87" pinname="LVDS0_I2C0_SCL" parentname="I2C_6_SCL" />
-    <Function name="I2C0_SCL (K20)" checked="1" pinid="305" pinname="PTB0/ LLWU_P5 (K20)" parentname="I2C_6_SCL" />
+    <Function name="LVDS0.I2C0.SCL" checked="1" pinid="87" pinname="LVDS0_I2C0_SCL" parentname="I2C_6_SCL" />
+    <Function name="I2C0_SCL (K20)" checked="-1" pinid="305" pinname="PTB0/ LLWU_P5 (K20)" parentname="I2C_6_SCL" />
     <Function name="I2C0_SCL (K20)" checked="-1" pinid="309" pinname="PTB2 (K20)" parentname="I2C_6_SCL" />
     <Function name="I2C0_SCL (K20)" checked="-1" pinid="253" pinname="PTD8 (K20)" parentname="I2C_6_SCL" />
     <Category name="I2C_6_SDA" checked="-1" />
-    <Function name="LVDS0.I2C0.SDA" checked="-1" pinid="99" pinname="LVDS0_I2C0_SDA" parentname="I2C_6_SDA" />
-    <Function name="I2C0_SDA (K20)" checked="1" pinid="307" pinname="PTB1 (K20)" parentname="I2C_6_SDA" />
+    <Function name="LVDS0.I2C0.SDA" checked="1" pinid="99" pinname="LVDS0_I2C0_SDA" parentname="I2C_6_SDA" />
+    <Function name="I2C0_SDA (K20)" checked="-1" pinid="307" pinname="PTB1 (K20)" parentname="I2C_6_SDA" />
     <Function name="I2C0_SDA (K20)" checked="-1" pinid="311" pinname="PTB3 (K20)" parentname="I2C_6_SDA" />
     <Function name="I2C0_SDA (K20)" checked="-1" pinid="251" pinname="PTD9 (K20)" parentname="I2C_6_SDA" />
     <Category name="I2C_M4_0_SCL" checked="-1" />
@@ -1853,7 +1849,7 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="SATA_PHY_TX_N" checked="1" pinid="31" pinname="SATA_PHY_TX_N" parentname="SATA_1_TX-" />
     <Category name="SATA_1_TX+" checked="1" />
     <Function name="SATA_PHY_TX_P" checked="1" pinid="33" pinname="SATA_PHY_TX_P" parentname="SATA_1_TX+" />
-    <Category name="SATA_1_ACT#" checked="-1" />
+    <Category name="SATA_1_ACT#" checked="1" />
     <Function name="GPIO3_IO15" checked="1" pinid="35" pinname="EIM_AD15" parentname="SATA_1_ACT#" />
     <Category name="BUS_8bit_A15" checked="-1" />
     <Function name="EIM_AD15" checked="1" pinid="35" pinname="EIM_AD15" parentname="BUS_8bit_A15" />
@@ -2554,17 +2550,17 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="PCIE_1_x2_CLK-" checked="-1" />
     <Function name="HSIO.PCIE_IOB.EXT_REFCLK100M_N" checked="1" pinid="53" pinname="PCIE_SATA_REFCLK100M_N" parentname="PCIE_1_x2_CLK-" />
     <Category name="PCIE_1_x2_L1[:underscore]RX-" checked="-1" />
-    <Function name="HSIO.PCIE1.RX0_N" checked="-1" pinid="64" pinname="PCIE1_RX0_N" parentname="PCIE_1_x2_L1[:underscore]RX-" />
-    <Function name="PEX_RX3N" checked="1" pinid="59" pinname="PEX_RX3N" parentname="PCIE_1_x2_L1[:underscore]RX-" />
+    <Function name="HSIO.PCIE1.RX0_N" checked="1" pinid="64" pinname="PCIE1_RX0_N" parentname="PCIE_1_x2_L1[:underscore]RX-" />
+    <Function name="PEX_RX3N" checked="-1" pinid="59" pinname="PEX_RX3N" parentname="PCIE_1_x2_L1[:underscore]RX-" />
     <Category name="PCIE_1_x2_L1[:underscore]RX+" checked="-1" />
-    <Function name="HSIO.PCIE1.RX0_P" checked="-1" pinid="62" pinname="PCIE1_RX0_P" parentname="PCIE_1_x2_L1[:underscore]RX+" />
-    <Function name="PEX_RX3P" checked="1" pinid="61" pinname="PEX_RX3P" parentname="PCIE_1_x2_L1[:underscore]RX+" />
+    <Function name="HSIO.PCIE1.RX0_P" checked="1" pinid="62" pinname="PCIE1_RX0_P" parentname="PCIE_1_x2_L1[:underscore]RX+" />
+    <Function name="PEX_RX3P" checked="-1" pinid="61" pinname="PEX_RX3P" parentname="PCIE_1_x2_L1[:underscore]RX+" />
     <Category name="PCIE_1_x2_L1[:underscore]TX-" checked="-1" />
-    <Function name="HSIO.PCIE1.TX0_N" checked="-1" pinid="70" pinname="PCIE1_TX0_N" parentname="PCIE_1_x2_L1[:underscore]TX-" />
-    <Function name="PEX_TX3N" checked="1" pinid="65" pinname="PEX_TX3N" parentname="PCIE_1_x2_L1[:underscore]TX-" />
+    <Function name="HSIO.PCIE1.TX0_N" checked="1" pinid="70" pinname="PCIE1_TX0_N" parentname="PCIE_1_x2_L1[:underscore]TX-" />
+    <Function name="PEX_TX3N" checked="-1" pinid="65" pinname="PEX_TX3N" parentname="PCIE_1_x2_L1[:underscore]TX-" />
     <Category name="PCIE_1_x2_L1[:underscore]TX+" checked="-1" />
-    <Function name="HSIO.PCIE1.TX0_P" checked="-1" pinid="68" pinname="PCIE1_TX0_P" parentname="PCIE_1_x2_L1[:underscore]TX+" />
-    <Function name="PEX_TX3P" checked="1" pinid="67" pinname="PEX_TX3P" parentname="PCIE_1_x2_L1[:underscore]TX+" />
+    <Function name="HSIO.PCIE1.TX0_P" checked="1" pinid="68" pinname="PCIE1_TX0_P" parentname="PCIE_1_x2_L1[:underscore]TX+" />
+    <Function name="PEX_TX3P" checked="-1" pinid="67" pinname="PEX_TX3P" parentname="PCIE_1_x2_L1[:underscore]TX+" />
     <Category name="PCIE_1_x2_L0[:underscore]RX-" checked="-1" />
     <Function name="HSIO.PCIE0.RX0_N" checked="1" pinid="41" pinname="PCIE0_RX0_N" parentname="PCIE_1_x2_L0[:underscore]RX-" />
     <Category name="PCIE_1_x2_L0[:underscore]RX+" checked="-1" />
@@ -2574,9 +2570,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="PCIE_1_x2_L0[:underscore]TX+" checked="-1" />
     <Function name="HSIO.PCIE0.TX0_P" checked="1" pinid="49" pinname="PCIE0_TX0_P" parentname="PCIE_1_x2_L0[:underscore]TX+" />
     <Category name="PCIE_2_x1_CLK-" checked="-1" />
-    <Function name="CLK2_N" checked="-1" pinid="131" pinname="CLK2_N" parentname="PCIE_2_x1_CLK-" />
+    <Function name="CLK2_N" checked="1" pinid="131" pinname="CLK2_N" parentname="PCIE_2_x1_CLK-" />
     <Function name="HSIO.PCIE_IOB.EXT_REFCLK100M_N" checked="-1" pinid="53" pinname="PCIE_SATA_REFCLK100M_N" parentname="PCIE_2_x1_CLK-" />
-    <Function name="PEX_CLK1N" checked="1" pinid="59" pinname="PEX_CLK1N" parentname="PCIE_2_x1_CLK-" />
+    <Function name="PEX_CLK1N" checked="-1" pinid="59" pinname="PEX_CLK1N" parentname="PCIE_2_x1_CLK-" />
     <Category name="PCIE_2_x1_CLK+" checked="-1" />
     <Function name="CLK2_P" checked="1" pinid="133" pinname="CLK2_P" parentname="PCIE_2_x1_CLK+" />
     <Function name="HSIO.PCIE_IOB.EXT_REFCLK100M_P" checked="-1" pinid="55" pinname="PCIE_SATA_REFCLK100M_P" parentname="PCIE_2_x1_CLK+" />
@@ -2584,25 +2580,25 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="PCIE_2_x1_PRSNT#" checked="-1" />
     <Function name="PEX0-PRSNT_N" checked="1" pinid="35" pinname="PEX_L0_PRSNT_N" parentname="PCIE_2_x1_PRSNT#" />
     <Category name="PCIE_2_x1_L0[:underscore]RX-" checked="-1" />
-    <Function name="HSIO.PCIE2.RX0_N" checked="-1" pinid="27" pinname="PCIE_SATA0_RX0_N" parentname="PCIE_2_x1_L0[:underscore]RX-" />
+    <Function name="HSIO.PCIE2.RX0_N" checked="1" pinid="27" pinname="PCIE_SATA0_RX0_N" parentname="PCIE_2_x1_L0[:underscore]RX-" />
     <Function name="HSIO.PCIE1.RX0_N" checked="-1" pinid="64" pinname="PCIE1_RX0_N" parentname="PCIE_2_x1_L0[:underscore]RX-" />
     <Function name="PEX_L0_RXN" checked="-1" pinid="65" pinname="PEX_L0_RXN" parentname="PCIE_2_x1_L0[:underscore]RX-" />
-    <Function name="USB3_RX0N" checked="1" pinid="92" pinname="USB3_RX0N" parentname="PCIE_2_x1_L0[:underscore]RX-" />
+    <Function name="USB3_RX0N" checked="-1" pinid="92" pinname="USB3_RX0N" parentname="PCIE_2_x1_L0[:underscore]RX-" />
     <Category name="PCIE_2_x1_L0[:underscore]RX+" checked="-1" />
-    <Function name="HSIO.PCIE2.RX0_P" checked="-1" pinid="25" pinname="PCIE_SATA0_RX0_P" parentname="PCIE_2_x1_L0[:underscore]RX+" />
+    <Function name="HSIO.PCIE2.RX0_P" checked="1" pinid="25" pinname="PCIE_SATA0_RX0_P" parentname="PCIE_2_x1_L0[:underscore]RX+" />
     <Function name="HSIO.PCIE1.RX0_P" checked="-1" pinid="62" pinname="PCIE1_RX0_P" parentname="PCIE_2_x1_L0[:underscore]RX+" />
     <Function name="PEX_L0_RXP" checked="-1" pinid="67" pinname="PEX_L0_RXP" parentname="PCIE_2_x1_L0[:underscore]RX+" />
-    <Function name="USB3_RX0P" checked="1" pinid="94" pinname="USB3_RX0P" parentname="PCIE_2_x1_L0[:underscore]RX+" />
+    <Function name="USB3_RX0P" checked="-1" pinid="94" pinname="USB3_RX0P" parentname="PCIE_2_x1_L0[:underscore]RX+" />
     <Category name="PCIE_2_x1_L0[:underscore]TX-" checked="-1" />
-    <Function name="HSIO.PCIE2.TX0_N" checked="-1" pinid="31" pinname="PCIE_SATA0_TX0_N" parentname="PCIE_2_x1_L0[:underscore]TX-" />
+    <Function name="HSIO.PCIE2.TX0_N" checked="1" pinid="31" pinname="PCIE_SATA0_TX0_N" parentname="PCIE_2_x1_L0[:underscore]TX-" />
     <Function name="HSIO.PCIE1.TX0_N" checked="-1" pinid="70" pinname="PCIE1_TX0_N" parentname="PCIE_2_x1_L0[:underscore]TX-" />
     <Function name="PEX_L0_TXN" checked="-1" pinid="71" pinname="PEX_L0_TXN" parentname="PCIE_2_x1_L0[:underscore]TX-" />
-    <Function name="USB3_TX0N" checked="1" pinid="104" pinname="USB3_TX0N" parentname="PCIE_2_x1_L0[:underscore]TX-" />
+    <Function name="USB3_TX0N" checked="-1" pinid="104" pinname="USB3_TX0N" parentname="PCIE_2_x1_L0[:underscore]TX-" />
     <Category name="PCIE_2_x1_L0[:underscore]TX+" checked="-1" />
-    <Function name="HSIO.PCIE2.TX0_P" checked="-1" pinid="33" pinname="PCIE_SATA0_TX0_P" parentname="PCIE_2_x1_L0[:underscore]TX+" />
+    <Function name="HSIO.PCIE2.TX0_P" checked="1" pinid="33" pinname="PCIE_SATA0_TX0_P" parentname="PCIE_2_x1_L0[:underscore]TX+" />
     <Function name="HSIO.PCIE1.TX0_P" checked="-1" pinid="68" pinname="PCIE1_TX0_P" parentname="PCIE_2_x1_L0[:underscore]TX+" />
     <Function name="PEX_L0_TXP" checked="-1" pinid="73" pinname="PEX_L0_TXP" parentname="PCIE_2_x1_L0[:underscore]TX+" />
-    <Function name="USB3_TX0P" checked="1" pinid="106" pinname="USB3_TX0P" parentname="PCIE_2_x1_L0[:underscore]TX+" />
+    <Function name="USB3_TX0P" checked="-1" pinid="106" pinname="USB3_TX0P" parentname="PCIE_2_x1_L0[:underscore]TX+" />
     <Category name="PCIE_2_x1_PERST#" checked="-1" />
     <Function name="PEX0-RST_N" checked="1" pinid="84" pinname="PEX_L0_RST_N" parentname="PCIE_2_x1_PERST#" />
     <Category name="PCIE_2_x1_CLKREQ#" checked="-1" />
@@ -2677,25 +2673,25 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="PEXCLK0-CLKREQ_N" checked="1" pinid="96" pinname="PEX_L0_CLKREQ_N" parentname="PCIE_2_x4_CLKREQ#" />
     <Category name="CAM_1_BT.656-8b_DE" checked="-1" />
     <Function name="IPU1_CSI0_DATA_EN" checked="1" pinid="77" pinname="CSI0_DATA_EN" parentname="CAM_1_BT.656-8b_DE" />
-    <Category name="CAM_1_BT.656-8b_Y7[:slash]C7" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y7[:slash]C7" checked="-1" />
     <Function name="IPU1_CSI0_DATA19" checked="1" pinid="173" pinname="CSI0_DATA19" parentname="CAM_1_BT.656-8b_Y7[:slash]C7" />
-    <Category name="CAM_1_BT.656-8b_Y6[:slash]C6" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y6[:slash]C6" checked="-1" />
     <Function name="IPU1_CSI0_DATA18" checked="1" pinid="175" pinname="CSI0_DATA18" parentname="CAM_1_BT.656-8b_Y6[:slash]C6" />
-    <Category name="CAM_1_BT.656-8b_Y5[:slash]C5" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y5[:slash]C5" checked="-1" />
     <Function name="IPU1_CSI0_DATA17" checked="1" pinid="177" pinname="CSI0_DATA17" parentname="CAM_1_BT.656-8b_Y5[:slash]C5" />
-    <Category name="CAM_1_BT.656-8b_Y4[:slash]C4" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y4[:slash]C4" checked="-1" />
     <Function name="IPU1_CSI0_DATA16" checked="1" pinid="179" pinname="CSI0_DATA16" parentname="CAM_1_BT.656-8b_Y4[:slash]C4" />
-    <Category name="CAM_1_BT.656-8b_Y3[:slash]C3" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y3[:slash]C3" checked="-1" />
     <Function name="IPU1_CSI0_DATA15" checked="1" pinid="181" pinname="CSI0_DATA15" parentname="CAM_1_BT.656-8b_Y3[:slash]C3" />
-    <Category name="CAM_1_BT.656-8b_Y2[:slash]C2" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y2[:slash]C2" checked="-1" />
     <Function name="IPU1_CSI0_DATA14" checked="1" pinid="183" pinname="CSI0_DATA14" parentname="CAM_1_BT.656-8b_Y2[:slash]C2" />
-    <Category name="CAM_1_BT.656-8b_Y1[:slash]C1" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y1[:slash]C1" checked="-1" />
     <Function name="IPU1_CSI0_DATA13" checked="1" pinid="185" pinname="CSI0_DATA13" parentname="CAM_1_BT.656-8b_Y1[:slash]C1" />
-    <Category name="CAM_1_BT.656-8b_Y0[:slash]C0" checked="1" />
+    <Category name="CAM_1_BT.656-8b_Y0[:slash]C0" checked="-1" />
     <Function name="IPU1_CSI0_DATA12" checked="1" pinid="187" pinname="CSI0_DATA12" parentname="CAM_1_BT.656-8b_Y0[:slash]C0" />
-    <Category name="CAM_1_BT.656-8b_PCLK" checked="1" />
+    <Category name="CAM_1_BT.656-8b_PCLK" checked="-1" />
     <Function name="IPU1_CSI0_PIXCLK" checked="1" pinid="191" pinname="CSI0_PIXCLK" parentname="CAM_1_BT.656-8b_PCLK" />
-    <Category name="CAM_1_BT.656-8b_MCLK" checked="1" />
+    <Category name="CAM_1_BT.656-8b_MCLK" checked="-1" />
     <Function name="CCM_CLKO2" checked="1" pinid="193" pinname="NAND_CS2_B" parentname="CAM_1_BT.656-8b_MCLK" />
     <Function name="CCM_CLKO2" checked="-1" pinid="96" pinname="GPIO03" parentname="CAM_1_BT.656-8b_MCLK" />
     <Category name="CAM_1_RGB565-8b-2c_DE" checked="-1" />
@@ -3543,22 +3539,22 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="UART5.A-CTS_N" checked="-1" pinid="188" pinname="SDMMC1_DAT1" parentname="UART_5_CTS" />
     <Function name="UART0_CTS_ b/ UART0_COL_b (K20)" checked="-1" pinid="311" pinname="PTB3 (K20)" parentname="UART_5_CTS" />
     <Function name="UART0_CTS_ b/ UART0_COL_b (K20)" checked="-1" pinid="245" pinname="PTD5 (K20)" parentname="UART_5_CTS" />
-    <Category name="UART_2_RTS" checked="1" />
+    <Category name="UART_2_RTS" checked="-1" />
     <Function name="UART2_RTS_B" checked="-1" pinid="135" pinname="EIM_DATA29" parentname="UART_2_RTS" />
     <Function name="UART2_RTS_B" checked="1" pinid="128" pinname="SD4_DATA5" parentname="UART_2_RTS" />
-    <Category name="UART_2_RXD" checked="1" />
+    <Category name="UART_2_RXD" checked="-1" />
     <Function name="UART2_TX_DATA" checked="-1" pinid="263" pinname="EIM_DATA26" parentname="UART_2_RXD" />
     <Function name="UART2_TX_DATA" checked="-1" pinid="14" pinname="GPIO07" parentname="UART_2_RXD" />
     <Function name="UART2_TX_DATA" checked="1" pinid="132" pinname="SD4_DATA7" parentname="UART_2_RXD" />
     <Function name="DMA.UART3.RX" checked="-1" pinid="5" pinname="M41_GPIO0_00" parentname="UART_2_RXD" />
     <Function name="DMA.UART3.RX" checked="-1" pinid="243" pinname="ENET1_RGMII_RXD3" parentname="UART_2_RXD" />
-    <Category name="UART_2_TXD" checked="1" />
+    <Category name="UART_2_TXD" checked="-1" />
     <Function name="UART2_RX_DATA" checked="-1" pinid="265" pinname="EIM_DATA27" parentname="UART_2_TXD" />
     <Function name="UART2_RX_DATA" checked="-1" pinid="12" pinname="GPIO08" parentname="UART_2_TXD" />
     <Function name="UART2_RX_DATA" checked="1" pinid="126" pinname="SD4_DATA4" parentname="UART_2_TXD" />
     <Function name="DMA.UART3.TX" checked="-1" pinid="7" pinname="M41_GPIO0_01" parentname="UART_2_TXD" />
     <Function name="DMA.UART3.TX" checked="-1" pinid="255" pinname="ENET1_RGMII_TXD2" parentname="UART_2_TXD" />
-    <Category name="UART_2_CTS" checked="1" />
+    <Category name="UART_2_CTS" checked="-1" />
     <Function name="UART2_CTS_B" checked="1" pinid="130" pinname="SD4_DATA6" parentname="UART_2_CTS" />
     <Category name="UART_4_CTS" checked="-1" />
     <Function name="UART5_CTS_B" checked="-1" pinid="173" pinname="CSI0_DATA19" parentname="UART_4_CTS" />
@@ -3568,11 +3564,11 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="UART5_RTS_B" checked="1" pinid="175" pinname="CSI0_DATA18" parentname="UART_4_RTS" />
     <Function name="UART5_RTS_B" checked="-1" pinid="18" pinname="KEY_COL4" parentname="UART_4_RTS" />
     <Function name="UART3-RTS_N" checked="-1" pinid="239" pinname="UART3_RTS_N" parentname="UART_4_RTS" />
-    <Category name="UART_4_TXD" checked="1" />
+    <Category name="UART_4_TXD" checked="-1" />
     <Function name="UART5_RX_DATA" checked="-1" pinid="181" pinname="CSI0_DATA15" parentname="UART_4_TXD" />
     <Function name="UART5_RX_DATA" checked="1" pinid="138" pinname="KEY_ROW1" parentname="UART_4_TXD" />
     <Function name="DMA.UART2.TX" checked="-1" pinid="8" pinname="UART0_CTS_B" parentname="UART_4_TXD" />
-    <Category name="UART_4_RXD" checked="1" />
+    <Category name="UART_4_RXD" checked="-1" />
     <Function name="UART5_TX_DATA" checked="-1" pinid="183" pinname="CSI0_DATA14" parentname="UART_4_RXD" />
     <Function name="UART5_TX_DATA" checked="1" pinid="140" pinname="KEY_COL1" parentname="UART_4_RXD" />
     <Function name="DMA.UART2.RX" checked="-1" pinid="6" pinname="UART0_RTS_B" parentname="UART_4_RXD" />
@@ -3584,13 +3580,13 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="UART4_RTS_B" checked="1" pinid="179" pinname="CSI0_DATA16" parentname="UART_3_RTS" />
     <Function name="DMA.UART0.RTS_B" checked="-1" pinid="6" pinname="UART0_RTS_B" parentname="UART_3_RTS" />
     <Function name="UC3_RTS" checked="-1" pinid="110" pinname="UART3_RTS_N" parentname="UART_3_RTS" />
-    <Category name="UART_3_TXD" checked="1" />
+    <Category name="UART_3_TXD" checked="-1" />
     <Function name="UART4_RX_DATA" checked="-1" pinid="185" pinname="CSI0_DATA13" parentname="UART_3_TXD" />
     <Function name="UART4_RX_DATA" checked="1" pinid="134" pinname="KEY_ROW0" parentname="UART_3_TXD" />
-    <Category name="UART_3_RXD" checked="1" />
+    <Category name="UART_3_RXD" checked="-1" />
     <Function name="UART4_TX_DATA" checked="-1" pinid="187" pinname="CSI0_DATA12" parentname="UART_3_RXD" />
     <Function name="UART4_TX_DATA" checked="1" pinid="136" pinname="KEY_COL0" parentname="UART_3_RXD" />
-    <Category name="UART_1_DTR" checked="1" />
+    <Category name="UART_1_DTR" checked="-1" />
     <Function name="UART1_DTR_B" checked="1" pinid="110" pinname="EIM_DATA24" parentname="UART_1_DTR" />
     <Function name="UART1.B-DTR_N" checked="-1" pinid="6" pinname="GPIO_PU4" parentname="UART_1_DTR" />
     <Category name="UART_1_TXD" checked="1" />
@@ -3608,13 +3604,13 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="UART_1_RXD" checked="1" />
     <Function name="UART1_TX_DATA" checked="1" pinid="118" pinname="CSI0_DATA10" parentname="UART_1_RXD" />
     <Function name="UART1.E-RXD" checked="-1" pinid="150" pinname="SDMMC3_CMD" parentname="UART_1_RXD" />
-    <Category name="UART_1_DSR" checked="1" />
+    <Category name="UART_1_DSR" checked="-1" />
     <Function name="UART1_DSR_B" checked="1" pinid="120" pinname="EIM_DATA25" parentname="UART_1_DSR" />
     <Function name="UART1.B-DSR_N" checked="-1" pinid="2" pinname="GPIO_PU6" parentname="UART_1_DSR" />
-    <Category name="UART_1_RI" checked="1" />
+    <Category name="UART_1_RI" checked="-1" />
     <Function name="UART1_RI_B" checked="1" pinid="122" pinname="EIM_EB3" parentname="UART_1_RI" />
     <Function name="UART1.B-RI_N" checked="-1" pinid="4" pinname="GPIO_PU5" parentname="UART_1_RI" />
-    <Category name="UART_1_DCD" checked="1" />
+    <Category name="UART_1_DCD" checked="-1" />
     <Function name="UART1_DCD_B" checked="1" pinid="124" pinname="EIM_DATA23" parentname="UART_1_DCD" />
     <Category name="UART_6_TXD" checked="-1" />
     <Function name="UART1_TX (K20)" checked="1" pinid="175" pinname="PTE0 (K20)" parentname="UART_6_TXD" />
@@ -3742,9 +3738,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="DSI_1_DSI[:slash]2x_CLK+" checked="-1" />
     <Function name="DSI_CLK0_P" checked="1" pinid="127" pinname="DSI_CLK0_P" parentname="DSI_1_DSI[:slash]2x_CLK+" />
     <Category name="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" checked="-1" />
-    <Function name="PWM4_OUT(GPIO5_IO02)" checked="-1" pinid="239" pinname="EIM_AD14" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" />
+    <Function name="PWM4_OUT(GPIO5_IO02)" checked="1" pinid="239" pinname="EIM_AD14" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="8" pinname="GPIO_PU3" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" />
-    <Function name="PWFM-PWM0" checked="1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" />
+    <Function name="PWFM-PWM0" checked="-1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="152" pinname="SDMMC3_DAT5" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]PWM" />
     <Category name="DSI_1_DSI[:slash]2x_BKL1[:underscore]ON" checked="-1" />
     <Function name="GPIO3_IO13" checked="1" pinid="286" pinname="EIM_AD13" parentname="DSI_1_DSI[:slash]2x_BKL1[:underscore]ON" />
@@ -3761,9 +3757,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="DSI_CLK0_P" checked="1" pinid="127" pinname="DSI_CLK0_P" parentname="DSI_1_DSI[:slash]1x_CLK+" />
     <Function name="MIPI_DSI1.CKP" checked="-1" pinid="133" pinname="MIPI_DSI1_CLK_P" parentname="DSI_1_DSI[:slash]1x_CLK+" />
     <Category name="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" checked="-1" />
-    <Function name="PWM4_OUT(GPIO5_IO02)" checked="-1" pinid="239" pinname="EIM_AD14" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" />
+    <Function name="PWM4_OUT(GPIO5_IO02)" checked="1" pinid="239" pinname="EIM_AD14" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="8" pinname="GPIO_PU3" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" />
-    <Function name="PWFM-PWM0" checked="1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" />
+    <Function name="PWFM-PWM0" checked="-1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="152" pinname="SDMMC3_DAT5" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]PWM" />
     <Category name="DSI_1_DSI[:slash]1x_BKL1[:underscore]ON" checked="-1" />
     <Function name="GPIO3_IO13" checked="1" pinid="286" pinname="EIM_AD13" parentname="DSI_1_DSI[:slash]1x_BKL1[:underscore]ON" />
@@ -3801,55 +3797,55 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="PM3_PWM3" checked="-1" pinid="8" pinname="GPIO_PH3" parentname="DSI_1_DSI[:slash]4x_BKL1[:underscore]PWM" />
     <Function name="PM3_PWM3" checked="1" pinid="239" pinname="GPIO_PU6" parentname="DSI_1_DSI[:slash]4x_BKL1[:underscore]PWM" />
     <Category name="DSI_2_DSI[:slash]2x_CLK-" checked="-1" />
-    <Function name="CSI_CLKBN" checked="1" pinid="131" pinname="CSI_CLKBN" parentname="DSI_2_DSI[:slash]2x_CLK-" />
-    <Function name="DSI_A_CLK_N" checked="-1" pinid="89" pinname="DSI_A_CLK_N" parentname="DSI_2_DSI[:slash]2x_CLK-" />
+    <Function name="CSI_CLKBN" checked="-1" pinid="131" pinname="CSI_CLKBN" parentname="DSI_2_DSI[:slash]2x_CLK-" />
+    <Function name="DSI_A_CLK_N" checked="1" pinid="89" pinname="DSI_A_CLK_N" parentname="DSI_2_DSI[:slash]2x_CLK-" />
     <Category name="DSI_2_DSI[:slash]2x_CLK+" checked="-1" />
-    <Function name="CSI_CLKBP" checked="1" pinid="133" pinname="CSI_CLKBP" parentname="DSI_2_DSI[:slash]2x_CLK+" />
-    <Function name="DSI_A_CLK_P" checked="-1" pinid="91" pinname="DSI_A_CLK_P" parentname="DSI_2_DSI[:slash]2x_CLK+" />
+    <Function name="CSI_CLKBP" checked="-1" pinid="133" pinname="CSI_CLKBP" parentname="DSI_2_DSI[:slash]2x_CLK+" />
+    <Function name="DSI_A_CLK_P" checked="1" pinid="91" pinname="DSI_A_CLK_P" parentname="DSI_2_DSI[:slash]2x_CLK+" />
     <Category name="DSI_2_DSI[:slash]2x_D2-" checked="-1" />
-    <Function name="CSI_D2BN" checked="1" pinid="137" pinname="CSI_D2BN" parentname="DSI_2_DSI[:slash]2x_D2-" />
-    <Function name="DSI_A_D1_N" checked="-1" pinid="77" pinname="DSI_A_D1_N" parentname="DSI_2_DSI[:slash]2x_D2-" />
+    <Function name="CSI_D2BN" checked="-1" pinid="137" pinname="CSI_D2BN" parentname="DSI_2_DSI[:slash]2x_D2-" />
+    <Function name="DSI_A_D1_N" checked="1" pinid="77" pinname="DSI_A_D1_N" parentname="DSI_2_DSI[:slash]2x_D2-" />
     <Category name="DSI_2_DSI[:slash]2x_D2+" checked="-1" />
-    <Function name="CSI_D2BP" checked="1" pinid="139" pinname="CSI_D2BP" parentname="DSI_2_DSI[:slash]2x_D2+" />
-    <Function name="DSI_A_D1_P" checked="-1" pinid="79" pinname="DSI_A_D1_P" parentname="DSI_2_DSI[:slash]2x_D2+" />
+    <Function name="CSI_D2BP" checked="-1" pinid="139" pinname="CSI_D2BP" parentname="DSI_2_DSI[:slash]2x_D2+" />
+    <Function name="DSI_A_D1_P" checked="1" pinid="79" pinname="DSI_A_D1_P" parentname="DSI_2_DSI[:slash]2x_D2+" />
     <Category name="DSI_2_DSI[:slash]2x_D1-" checked="-1" />
-    <Function name="CSI_D1BN" checked="1" pinid="143" pinname="CSI_D1BN" parentname="DSI_2_DSI[:slash]2x_D1-" />
-    <Function name="DSI_A_D0_N" checked="-1" pinid="83" pinname="DSI_A_D0_N" parentname="DSI_2_DSI[:slash]2x_D1-" />
+    <Function name="CSI_D1BN" checked="-1" pinid="143" pinname="CSI_D1BN" parentname="DSI_2_DSI[:slash]2x_D1-" />
+    <Function name="DSI_A_D0_N" checked="1" pinid="83" pinname="DSI_A_D0_N" parentname="DSI_2_DSI[:slash]2x_D1-" />
     <Category name="DSI_2_DSI[:slash]2x_D1+" checked="-1" />
-    <Function name="CSI_D1BP" checked="1" pinid="145" pinname="CSI_D1BP" parentname="DSI_2_DSI[:slash]2x_D1+" />
-    <Function name="DSI_A_D0_P" checked="-1" pinid="85" pinname="DSI_A_D0_P" parentname="DSI_2_DSI[:slash]2x_D1+" />
+    <Function name="CSI_D1BP" checked="-1" pinid="145" pinname="CSI_D1BP" parentname="DSI_2_DSI[:slash]2x_D1+" />
+    <Function name="DSI_A_D0_P" checked="1" pinid="85" pinname="DSI_A_D0_P" parentname="DSI_2_DSI[:slash]2x_D1+" />
     <Category name="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" checked="-1" />
-    <Function name="PWFM-PWM0" checked="-1" pinid="239" pinname="UART3_RTS_N" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" />
+    <Function name="PWFM-PWM0" checked="1" pinid="239" pinname="UART3_RTS_N" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="8" pinname="GPIO_PU3" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" />
-    <Function name="PWFM-PWM0" checked="1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" />
+    <Function name="PWFM-PWM0" checked="-1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="152" pinname="SDMMC3_DAT5" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]PWM" />
     <Category name="DSI_2_DSI[:slash]2x_BKL1[:underscore]ON" checked="-1" />
     <Function name="GPIO-V.02" checked="1" pinid="286" pinname="GPIO_PV2" parentname="DSI_2_DSI[:slash]2x_BKL1[:underscore]ON" />
     <Category name="DSI_2_DSI[:slash]1x_CLK-" checked="-1" />
-    <Function name="CSI_CLKBN" checked="1" pinid="131" pinname="CSI_CLKBN" parentname="DSI_2_DSI[:slash]1x_CLK-" />
-    <Function name="DSI_A_CLK_N" checked="-1" pinid="89" pinname="DSI_A_CLK_N" parentname="DSI_2_DSI[:slash]1x_CLK-" />
+    <Function name="CSI_CLKBN" checked="-1" pinid="131" pinname="CSI_CLKBN" parentname="DSI_2_DSI[:slash]1x_CLK-" />
+    <Function name="DSI_A_CLK_N" checked="1" pinid="89" pinname="DSI_A_CLK_N" parentname="DSI_2_DSI[:slash]1x_CLK-" />
     <Category name="DSI_2_DSI[:slash]1x_CLK+" checked="-1" />
-    <Function name="CSI_CLKBP" checked="1" pinid="133" pinname="CSI_CLKBP" parentname="DSI_2_DSI[:slash]1x_CLK+" />
-    <Function name="DSI_A_CLK_P" checked="-1" pinid="91" pinname="DSI_A_CLK_P" parentname="DSI_2_DSI[:slash]1x_CLK+" />
+    <Function name="CSI_CLKBP" checked="-1" pinid="133" pinname="CSI_CLKBP" parentname="DSI_2_DSI[:slash]1x_CLK+" />
+    <Function name="DSI_A_CLK_P" checked="1" pinid="91" pinname="DSI_A_CLK_P" parentname="DSI_2_DSI[:slash]1x_CLK+" />
     <Category name="DSI_2_DSI[:slash]1x_D1-" checked="-1" />
-    <Function name="CSI_D1BN" checked="1" pinid="143" pinname="CSI_D1BN" parentname="DSI_2_DSI[:slash]1x_D1-" />
-    <Function name="DSI_A_D0_N" checked="-1" pinid="83" pinname="DSI_A_D0_N" parentname="DSI_2_DSI[:slash]1x_D1-" />
+    <Function name="CSI_D1BN" checked="-1" pinid="143" pinname="CSI_D1BN" parentname="DSI_2_DSI[:slash]1x_D1-" />
+    <Function name="DSI_A_D0_N" checked="1" pinid="83" pinname="DSI_A_D0_N" parentname="DSI_2_DSI[:slash]1x_D1-" />
     <Category name="DSI_2_DSI[:slash]1x_D1+" checked="-1" />
-    <Function name="CSI_D1BP" checked="1" pinid="145" pinname="CSI_D1BP" parentname="DSI_2_DSI[:slash]1x_D1+" />
-    <Function name="DSI_A_D0_P" checked="-1" pinid="85" pinname="DSI_A_D0_P" parentname="DSI_2_DSI[:slash]1x_D1+" />
+    <Function name="CSI_D1BP" checked="-1" pinid="145" pinname="CSI_D1BP" parentname="DSI_2_DSI[:slash]1x_D1+" />
+    <Function name="DSI_A_D0_P" checked="1" pinid="85" pinname="DSI_A_D0_P" parentname="DSI_2_DSI[:slash]1x_D1+" />
     <Category name="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" checked="-1" />
-    <Function name="PWFM-PWM0" checked="-1" pinid="239" pinname="UART3_RTS_N" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" />
+    <Function name="PWFM-PWM0" checked="1" pinid="239" pinname="UART3_RTS_N" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="8" pinname="GPIO_PU3" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" />
-    <Function name="PWFM-PWM0" checked="1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" />
+    <Function name="PWFM-PWM0" checked="-1" pinid="146" pinname="SDMMC3_DAT3" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="152" pinname="SDMMC3_DAT5" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]PWM" />
     <Category name="DSI_2_DSI[:slash]1x_BKL1[:underscore]ON" checked="-1" />
     <Function name="GPIO-V.02" checked="1" pinid="286" pinname="GPIO_PV2" parentname="DSI_2_DSI[:slash]1x_BKL1[:underscore]ON" />
     <Category name="SPI_3_MASTER_CS0" checked="-1" />
     <Function name="ECSPI4_SS0" checked="-1" pinid="135" pinname="EIM_DATA29" parentname="SPI_3_MASTER_CS0" />
     <Function name="ECSPI4_SS0" checked="-1" pinid="114" pinname="EIM_DATA20" parentname="SPI_3_MASTER_CS0" />
-    <Function name="DMA.SPI1.CS0" checked="-1" pinid="319" pinname="ADC_IN6" parentname="SPI_3_MASTER_CS0" />
+    <Function name="DMA.SPI1.CS0" checked="1" pinid="319" pinname="ADC_IN6" parentname="SPI_3_MASTER_CS0" />
     <Function name="SPI2.E-CS1_N" checked="-1" pinid="227" pinname="SPI1_CS0_N" parentname="SPI_3_MASTER_CS0" />
-    <Function name="SPI2.A-CS1_N" checked="1" pinid="110" pinname="ULPI_DATA7" parentname="SPI_3_MASTER_CS0" />
+    <Function name="SPI2.A-CS1_N" checked="-1" pinid="110" pinname="ULPI_DATA7" parentname="SPI_3_MASTER_CS0" />
     <Function name="SPI3D_CS0" checked="-1" pinid="176" pinname="SDMMC3_DAT2" parentname="SPI_3_MASTER_CS0" />
     <Category name="SPI_3_MASTER_CS2" checked="-1" />
     <Function name="ECSPI4_SS2" checked="-1" pinid="110" pinname="EIM_DATA24" parentname="SPI_3_MASTER_CS2" />
@@ -3860,63 +3856,63 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="ECSPI4_RDY" checked="-1" pinid="122" pinname="EIM_EB3" parentname="SPI_3_MASTER_RDY" />
     <Category name="SPI_3_MASTER_SCLK" checked="-1" />
     <Function name="ECSPI4_SCLK" checked="-1" pinid="262" pinname="EIM_DATA21" parentname="SPI_3_MASTER_SCLK" />
-    <Function name="DMA.SPI1.SCK" checked="-1" pinid="311" pinname="ADC_IN3" parentname="SPI_3_MASTER_SCLK" />
+    <Function name="DMA.SPI1.SCK" checked="1" pinid="311" pinname="ADC_IN3" parentname="SPI_3_MASTER_SCLK" />
     <Function name="SPI2.E-SCK" checked="-1" pinid="221" pinname="SPI1_SCK" parentname="SPI_3_MASTER_SCLK" />
-    <Function name="SPI2.A-SCK" checked="1" pinid="120" pinname="ULPI_DATA6" parentname="SPI_3_MASTER_SCLK" />
+    <Function name="SPI2.A-SCK" checked="-1" pinid="120" pinname="ULPI_DATA6" parentname="SPI_3_MASTER_SCLK" />
     <Function name="SPI3D_SCK" checked="-1" pinid="184" pinname="SDMMC3_CLK" parentname="SPI_3_MASTER_SCLK" />
     <Category name="SPI_3_MASTER_MISO" checked="-1" />
     <Function name="ECSPI4_MISO" checked="-1" pinid="274" pinname="EIM_DATA22" parentname="SPI_3_MASTER_MISO" />
-    <Function name="DMA.SPI1.SDI" checked="-1" pinid="317" pinname="ADC_IN5" parentname="SPI_3_MASTER_MISO" />
+    <Function name="DMA.SPI1.SDI" checked="1" pinid="317" pinname="ADC_IN5" parentname="SPI_3_MASTER_MISO" />
     <Function name="SPI2.E-MOSI" checked="-1" pinid="225" pinname="SPI1_MOSI" parentname="SPI_3_MASTER_MISO" />
-    <Function name="SPI2.A-MISO" checked="1" pinid="124" pinname="ULPI_DATA5" parentname="SPI_3_MASTER_MISO" />
+    <Function name="SPI2.A-MISO" checked="-1" pinid="124" pinname="ULPI_DATA5" parentname="SPI_3_MASTER_MISO" />
     <Function name="SPI3D_DIN" checked="-1" pinid="186" pinname="SDMMC3_DAT0" parentname="SPI_3_MASTER_MISO" />
     <Category name="SPI_3_MASTER_MOSI" checked="-1" />
-    <Function name="DMA.SPI1.SDO" checked="-1" pinid="315" pinname="ADC_IN4" parentname="SPI_3_MASTER_MOSI" />
-    <Function name="SPI2.A-MOSI" checked="1" pinid="122" pinname="ULPI_DATA4" parentname="SPI_3_MASTER_MOSI" />
+    <Function name="DMA.SPI1.SDO" checked="1" pinid="315" pinname="ADC_IN4" parentname="SPI_3_MASTER_MOSI" />
+    <Function name="SPI2.A-MOSI" checked="-1" pinid="122" pinname="ULPI_DATA4" parentname="SPI_3_MASTER_MOSI" />
     <Function name="SPI3D_DOUT" checked="-1" pinid="188" pinname="SDMMC3_DAT1" parentname="SPI_3_MASTER_MOSI" />
     <Category name="SPI_3_MASTER_CS1" checked="-1" />
-    <Function name="DMA.SPI1.CS1" checked="-1" pinid="321" pinname="ADC_IN7" parentname="SPI_3_MASTER_CS1" />
-    <Function name="SPI3D_CS1" checked="1" pinid="178" pinname="SDMMC3_DAT3" parentname="SPI_3_MASTER_CS1" />
+    <Function name="DMA.SPI1.CS1" checked="1" pinid="321" pinname="ADC_IN7" parentname="SPI_3_MASTER_CS1" />
+    <Function name="SPI3D_CS1" checked="-1" pinid="178" pinname="SDMMC3_DAT3" parentname="SPI_3_MASTER_CS1" />
     <Category name="SPI_3_SLAVE_CS" checked="-1" />
     <Function name="ECSPI4_SS0" checked="-1" pinid="135" pinname="EIM_DATA29" parentname="SPI_3_SLAVE_CS" />
     <Function name="ECSPI4_SS2" checked="-1" pinid="110" pinname="EIM_DATA24" parentname="SPI_3_SLAVE_CS" />
     <Function name="ECSPI4_SS0" checked="-1" pinid="114" pinname="EIM_DATA20" parentname="SPI_3_SLAVE_CS" />
     <Function name="ECSPI4_SS3" checked="-1" pinid="120" pinname="EIM_DATA25" parentname="SPI_3_SLAVE_CS" />
-    <Function name="DMA.SPI1.CS0" checked="-1" pinid="319" pinname="ADC_IN6" parentname="SPI_3_SLAVE_CS" />
+    <Function name="DMA.SPI1.CS0" checked="1" pinid="319" pinname="ADC_IN6" parentname="SPI_3_SLAVE_CS" />
     <Function name="SPI2.E-CS1_N" checked="-1" pinid="227" pinname="SPI1_CS0_N" parentname="SPI_3_SLAVE_CS" />
-    <Function name="SPI3D_CS0" checked="1" pinid="176" pinname="SDMMC3_DAT2" parentname="SPI_3_SLAVE_CS" />
+    <Function name="SPI3D_CS0" checked="-1" pinid="176" pinname="SDMMC3_DAT2" parentname="SPI_3_SLAVE_CS" />
     <Category name="SPI_3_SLAVE_SCLK" checked="-1" />
     <Function name="ECSPI4_SCLK" checked="-1" pinid="262" pinname="EIM_DATA21" parentname="SPI_3_SLAVE_SCLK" />
-    <Function name="DMA.SPI1.SCK" checked="-1" pinid="311" pinname="ADC_IN3" parentname="SPI_3_SLAVE_SCLK" />
+    <Function name="DMA.SPI1.SCK" checked="1" pinid="311" pinname="ADC_IN3" parentname="SPI_3_SLAVE_SCLK" />
     <Function name="SPI2.E-SCK" checked="-1" pinid="221" pinname="SPI1_SCK" parentname="SPI_3_SLAVE_SCLK" />
-    <Function name="SPI2.A-SCK" checked="1" pinid="120" pinname="ULPI_DATA6" parentname="SPI_3_SLAVE_SCLK" />
+    <Function name="SPI2.A-SCK" checked="-1" pinid="120" pinname="ULPI_DATA6" parentname="SPI_3_SLAVE_SCLK" />
     <Function name="SPI3D_SCK" checked="-1" pinid="184" pinname="SDMMC3_CLK" parentname="SPI_3_SLAVE_SCLK" />
     <Category name="SPI_3_SLAVE_MISO" checked="-1" />
     <Function name="ECSPI4_MISO" checked="-1" pinid="274" pinname="EIM_DATA22" parentname="SPI_3_SLAVE_MISO" />
-    <Function name="DMA.SPI1.SDO" checked="-1" pinid="315" pinname="ADC_IN4" parentname="SPI_3_SLAVE_MISO" />
+    <Function name="DMA.SPI1.SDO" checked="1" pinid="315" pinname="ADC_IN4" parentname="SPI_3_SLAVE_MISO" />
     <Function name="SPI2.E-MOSI" checked="-1" pinid="225" pinname="SPI1_MOSI" parentname="SPI_3_SLAVE_MISO" />
-    <Function name="SPI2.A-MISO" checked="1" pinid="124" pinname="ULPI_DATA5" parentname="SPI_3_SLAVE_MISO" />
+    <Function name="SPI2.A-MISO" checked="-1" pinid="124" pinname="ULPI_DATA5" parentname="SPI_3_SLAVE_MISO" />
     <Function name="SPI3D_DOUT" checked="-1" pinid="188" pinname="SDMMC3_DAT1" parentname="SPI_3_SLAVE_MISO" />
     <Category name="SPI_3_SLAVE_MOSI" checked="-1" />
-    <Function name="DMA.SPI1.SDI" checked="-1" pinid="317" pinname="ADC_IN5" parentname="SPI_3_SLAVE_MOSI" />
-    <Function name="SPI2.A-MOSI" checked="1" pinid="122" pinname="ULPI_DATA4" parentname="SPI_3_SLAVE_MOSI" />
+    <Function name="DMA.SPI1.SDI" checked="1" pinid="317" pinname="ADC_IN5" parentname="SPI_3_SLAVE_MOSI" />
+    <Function name="SPI2.A-MOSI" checked="-1" pinid="122" pinname="ULPI_DATA4" parentname="SPI_3_SLAVE_MOSI" />
     <Function name="SPI3D_DIN" checked="-1" pinid="186" pinname="SDMMC3_DAT0" parentname="SPI_3_SLAVE_MOSI" />
-    <Category name="SPI_1_MASTER_MOSI" checked="1" />
+    <Category name="SPI_1_MASTER_MOSI" checked="-1" />
     <Function name="ECSPI1_MOSI" checked="-1" pinid="201" pinname="EIM_DATA18" parentname="SPI_1_MASTER_MOSI" />
     <Function name="ECSPI1_MOSI" checked="1" pinid="225" pinname="CSI0_DATA05" parentname="SPI_1_MASTER_MOSI" />
     <Function name="ECSPI1_MOSI" checked="-1" pinid="134" pinname="KEY_ROW0" parentname="SPI_1_MASTER_MOSI" />
     <Function name="SPI1.A-MOSI" checked="-1" pinid="126" pinname="ULPI_CLK" parentname="SPI_1_MASTER_MOSI" />
-    <Category name="SPI_1_MASTER_MISO" checked="1" />
+    <Category name="SPI_1_MASTER_MISO" checked="-1" />
     <Function name="ECSPI1_MISO" checked="-1" pinid="203" pinname="EIM_DATA17" parentname="SPI_1_MASTER_MISO" />
     <Function name="ECSPI1_MISO" checked="1" pinid="223" pinname="CSI0_DATA06" parentname="SPI_1_MASTER_MISO" />
     <Function name="ECSPI1_MISO" checked="-1" pinid="140" pinname="KEY_COL1" parentname="SPI_1_MASTER_MISO" />
     <Function name="SPI1.A-MISO" checked="-1" pinid="132" pinname="ULPI_DIR" parentname="SPI_1_MASTER_MISO" />
-    <Category name="SPI_1_MASTER_SCLK" checked="1" />
+    <Category name="SPI_1_MASTER_SCLK" checked="-1" />
     <Function name="ECSPI1_SCLK" checked="-1" pinid="205" pinname="EIM_DATA16" parentname="SPI_1_MASTER_SCLK" />
     <Function name="ECSPI1_SCLK" checked="1" pinid="221" pinname="CSI0_DATA04" parentname="SPI_1_MASTER_SCLK" />
     <Function name="ECSPI1_SCLK" checked="-1" pinid="136" pinname="KEY_COL0" parentname="SPI_1_MASTER_SCLK" />
     <Function name="SPI1.A-SCK" checked="-1" pinid="130" pinname="ULPI_NXT" parentname="SPI_1_MASTER_SCLK" />
-    <Category name="SPI_1_MASTER_CS0" checked="1" />
+    <Category name="SPI_1_MASTER_CS0" checked="-1" />
     <Function name="ECSPI1_SS0" checked="-1" pinid="207" pinname="EIM_EB2" parentname="SPI_1_MASTER_CS0" />
     <Function name="ECSPI1_SS0" checked="1" pinid="227" pinname="CSI0_DATA07" parentname="SPI_1_MASTER_CS0" />
     <Function name="ECSPI1_SS0" checked="-1" pinid="138" pinname="KEY_ROW1" parentname="SPI_1_MASTER_CS0" />
@@ -3957,19 +3953,19 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="ECSPI1_SS0" checked="-1" pinid="138" pinname="KEY_ROW1" parentname="SPI_1_SLAVE_CS" />
     <Function name="ECSPI1_SS2" checked="-1" pinid="220" pinname="KEY_ROW2" parentname="SPI_1_SLAVE_CS" />
     <Function name="SPI1.A-CS0_N" checked="-1" pinid="128" pinname="ULPI_STP" parentname="SPI_1_SLAVE_CS" />
-    <Category name="SPI_2_MASTER_SCLK" checked="1" />
+    <Category name="SPI_2_MASTER_SCLK" checked="-1" />
     <Function name="ECSPI2_SCLK" checked="-1" pinid="209" pinname="CSI0_DATA08" parentname="SPI_2_MASTER_SCLK" />
     <Function name="ECSPI2_SCLK" checked="1" pinid="235" pinname="EIM_CS0" parentname="SPI_2_MASTER_SCLK" />
     <Function name="ECSPI2_SCLK" checked="-1" pinid="202" pinname="DISP0_DATA19" parentname="SPI_2_MASTER_SCLK" />
-    <Category name="SPI_2_MASTER_MOSI" checked="1" />
+    <Category name="SPI_2_MASTER_MOSI" checked="-1" />
     <Function name="ECSPI2_MOSI" checked="-1" pinid="211" pinname="CSI0_DATA09" parentname="SPI_2_MASTER_MOSI" />
     <Function name="ECSPI2_MOSI" checked="1" pinid="231" pinname="EIM_CS1" parentname="SPI_2_MASTER_MOSI" />
     <Function name="ECSPI2_MOSI" checked="-1" pinid="200" pinname="DISP0_DATA16" parentname="SPI_2_MASTER_MOSI" />
-    <Category name="SPI_2_MASTER_MISO" checked="1" />
+    <Category name="SPI_2_MASTER_MISO" checked="-1" />
     <Function name="ECSPI2_MISO" checked="1" pinid="229" pinname="EIM_OE" parentname="SPI_2_MASTER_MISO" />
     <Function name="ECSPI2_MISO" checked="-1" pinid="118" pinname="CSI0_DATA10" parentname="SPI_2_MASTER_MISO" />
     <Function name="ECSPI2_MISO" checked="-1" pinid="196" pinname="DISP0_DATA17" parentname="SPI_2_MASTER_MISO" />
-    <Category name="SPI_2_MASTER_CS0" checked="1" />
+    <Category name="SPI_2_MASTER_CS0" checked="-1" />
     <Function name="ECSPI2_SS0" checked="1" pinid="233" pinname="EIM_RW" parentname="SPI_2_MASTER_CS0" />
     <Function name="ECSPI2_SS0" checked="-1" pinid="112" pinname="CSI0_DATA11" parentname="SPI_2_MASTER_CS0" />
     <Function name="ECSPI2_SS0" checked="-1" pinid="204" pinname="DISP0_DATA18" parentname="SPI_2_MASTER_CS0" />
@@ -4044,9 +4040,9 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="SPI0_PCS0 (K20)" checked="-1" pinid="249" pinname="PTC4/ LLWU_P8 (K20)" parentname="SPI_4_MASTER_CS0" />
     <Function name="SPI0_PCS0 (K20)" checked="-1" pinid="291" pinname="PTD0/ LLWU_P12 (K20)" parentname="SPI_4_MASTER_CS0" />
     <Category name="SPI_4_MASTER_CS3" checked="-1" />
-    <Function name="ECSPI5_SS3" checked="-1" pinid="178" pinname="SD2_DATA3" parentname="SPI_4_MASTER_CS3" />
+    <Function name="ECSPI5_SS3" checked="1" pinid="178" pinname="SD2_DATA3" parentname="SPI_4_MASTER_CS3" />
     <Function name="SPI0_PCS3 (K20)" checked="-1" pinid="293" pinname="PTC1/ LLWU_P6 (K20)" parentname="SPI_4_MASTER_CS3" />
-    <Function name="SPI0_PCS3 (K20)" checked="1" pinid="255" pinname="PTD6/ LLWU_P15 (K20)" parentname="SPI_4_MASTER_CS3" />
+    <Function name="SPI0_PCS3 (K20)" checked="-1" pinid="255" pinname="PTD6/ LLWU_P15 (K20)" parentname="SPI_4_MASTER_CS3" />
     <Category name="SPI_4_MASTER_CS4" checked="-1" />
     <Function name="SPI0_PCS4 (K20)" checked="1" pinid="263" pinname="PTC0 (K20)" parentname="SPI_4_MASTER_CS4" />
     <Category name="SPI_4_SLAVE_CS" checked="-1" />
@@ -4119,25 +4115,25 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="SPI_5_SLAVE_CS" checked="-1" />
     <Function name="SPI1_PCS0 (K20)" checked="1" pinid="185" pinname="PTE4/ LLWU_P2 (K20)" parentname="SPI_5_SLAVE_CS" />
     <Function name="SPI1_PCS0 (K20)" checked="-1" pinid="297" pinname="PTB10 (K20)" parentname="SPI_5_SLAVE_CS" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D4-" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D4-" checked="-1" />
     <Function name="CSI_DATA3_N" checked="1" pinid="137" pinname="CSI_DATA3_N" parentname="CSI_1_CSI-2[:slash]4x_D4-" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D4+" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D4+" checked="-1" />
     <Function name="CSI_DATA3_P" checked="1" pinid="139" pinname="CSI_DATA3_P" parentname="CSI_1_CSI-2[:slash]4x_D4+" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D3-" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D3-" checked="-1" />
     <Function name="CSI_DATA2_N" checked="1" pinid="143" pinname="CSI_DATA2_N" parentname="CSI_1_CSI-2[:slash]4x_D3-" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D3+" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D3+" checked="-1" />
     <Function name="CSI_DATA2_P" checked="1" pinid="145" pinname="CSI_DATA2_P" parentname="CSI_1_CSI-2[:slash]4x_D3+" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D2-" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D2-" checked="-1" />
     <Function name="CSI_DATA1_N" checked="1" pinid="149" pinname="CSI_DATA1_N" parentname="CSI_1_CSI-2[:slash]4x_D2-" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D2+" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D2+" checked="-1" />
     <Function name="CSI_DATA1_P" checked="1" pinid="151" pinname="CSI_DATA1_P" parentname="CSI_1_CSI-2[:slash]4x_D2+" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D1-" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D1-" checked="-1" />
     <Function name="CSI_DATA0_N" checked="1" pinid="155" pinname="CSI_DATA0_N" parentname="CSI_1_CSI-2[:slash]4x_D1-" />
-    <Category name="CSI_1_CSI-2[:slash]4x_D1+" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_D1+" checked="-1" />
     <Function name="CSI_DATA0_P" checked="1" pinid="157" pinname="CSI_DATA0_P" parentname="CSI_1_CSI-2[:slash]4x_D1+" />
-    <Category name="CSI_1_CSI-2[:slash]4x_CLK-" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_CLK-" checked="-1" />
     <Function name="CSI_CLK0_N" checked="1" pinid="161" pinname="CSI_CLK0_N" parentname="CSI_1_CSI-2[:slash]4x_CLK-" />
-    <Category name="CSI_1_CSI-2[:slash]4x_CLK+" checked="1" />
+    <Category name="CSI_1_CSI-2[:slash]4x_CLK+" checked="-1" />
     <Function name="CSI_CLK0_P" checked="1" pinid="163" pinname="CSI_CLK0_P" parentname="CSI_1_CSI-2[:slash]4x_CLK+" />
     <Category name="CSI_1_CSI-2[:slash]2x_D2-" checked="-1" />
     <Function name="CSI_DATA1_N" checked="1" pinid="149" pinname="CSI_DATA1_N" parentname="CSI_1_CSI-2[:slash]2x_D2-" />
@@ -4176,11 +4172,11 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="CSI_2_CSI-2[:slash]1x_CLK+" checked="-1" />
     <Function name="CSI_CLKBP" checked="1" pinid="133" pinname="CSI_CLKBP" parentname="CSI_2_CSI-2[:slash]1x_CLK+" />
     <Category name="CSI_2_CSI-2[:slash]1x_D1-" checked="-1" />
-    <Function name="CSI_D1BN" checked="1" pinid="143" pinname="CSI_D1BN" parentname="CSI_2_CSI-2[:slash]1x_D1-" />
-    <Function name="CSI_E_D0_N" checked="-1" pinid="95" pinname="CSI_E_D0_N" parentname="CSI_2_CSI-2[:slash]1x_D1-" />
+    <Function name="CSI_D1BN" checked="-1" pinid="143" pinname="CSI_D1BN" parentname="CSI_2_CSI-2[:slash]1x_D1-" />
+    <Function name="CSI_E_D0_N" checked="1" pinid="95" pinname="CSI_E_D0_N" parentname="CSI_2_CSI-2[:slash]1x_D1-" />
     <Category name="CSI_2_CSI-2[:slash]1x_D1+" checked="-1" />
-    <Function name="CSI_D1BP" checked="1" pinid="145" pinname="CSI_D1BP" parentname="CSI_2_CSI-2[:slash]1x_D1+" />
-    <Function name="CSI_E_D0_P" checked="-1" pinid="97" pinname="CSI_E_D0_P" parentname="CSI_2_CSI-2[:slash]1x_D1+" />
+    <Function name="CSI_D1BP" checked="-1" pinid="145" pinname="CSI_D1BP" parentname="CSI_2_CSI-2[:slash]1x_D1+" />
+    <Function name="CSI_E_D0_P" checked="1" pinid="97" pinname="CSI_E_D0_P" parentname="CSI_2_CSI-2[:slash]1x_D1+" />
     <Category name="CSI_3_CSI-2[:slash]4x_CLK-" checked="-1" />
     <Function name="MIPI_CSI0.CKN" checked="1" pinid="125" pinname="MIPI_CSI0_CLK_N" parentname="CSI_3_CSI-2[:slash]4x_CLK-" />
     <Category name="CSI_3_CSI-2[:slash]4x_CLK+" checked="-1" />
@@ -4390,15 +4386,15 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="ETH_2_RMII_PPS" checked="-1" />
     <Function name="CONN.ENET1.PPS" checked="1" pinid="269" pinname="ENET1_REFCLK_125M_25M" parentname="ETH_2_RMII_PPS" />
     <Category name="SPDIF_1_OUT" checked="-1" />
-    <Function name="SPDIF_OUT" checked="-1" pinid="215" pinname="GPIO17" parentname="SPDIF_1_OUT" />
+    <Function name="SPDIF_OUT" checked="1" pinid="215" pinname="GPIO17" parentname="SPDIF_1_OUT" />
     <Function name="SPDIF_OUT" checked="-1" pinid="194" pinname="GPIO19" parentname="SPDIF_1_OUT" />
     <Function name="SPDIF_OUT" checked="-1" pinid="274" pinname="EIM_DATA22" parentname="SPDIF_1_OUT" />
-    <Function name="SPDIF1.C-OUT" checked="1" pinid="136" pinname="UART2_RXD" parentname="SPDIF_1_OUT" />
+    <Function name="SPDIF1.C-OUT" checked="-1" pinid="136" pinname="UART2_RXD" parentname="SPDIF_1_OUT" />
     <Function name="SPDIF1.B-OUT" checked="-1" pinid="158" pinname="SDMMC3_DAT7" parentname="SPDIF_1_OUT" />
     <Category name="SPDIF_1_IN" checked="-1" />
-    <Function name="SPDIF_IN" checked="-1" pinid="217" pinname="GPIO16" parentname="SPDIF_1_IN" />
+    <Function name="SPDIF_IN" checked="1" pinid="217" pinname="GPIO16" parentname="SPDIF_1_IN" />
     <Function name="SPDIF_IN" checked="-1" pinid="262" pinname="EIM_DATA21" parentname="SPDIF_1_IN" />
-    <Function name="SPDIF1.C-IN" checked="1" pinid="134" pinname="UART2_TXD" parentname="SPDIF_1_IN" />
+    <Function name="SPDIF1.C-IN" checked="-1" pinid="134" pinname="UART2_TXD" parentname="SPDIF_1_IN" />
     <Function name="SPDIF1.B-IN" checked="-1" pinid="156" pinname="SDMMC3_DAT6" parentname="SPDIF_1_IN" />
     <Category name="SPDIF_1_SR[:underscore]CLK" checked="-1" />
     <Function name="SPDIF_SR_CLK" checked="1" pinid="12" pinname="GPIO08" parentname="SPDIF_1_SR[:underscore]CLK" />
@@ -4454,45 +4450,45 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="PWFM-PWM0" checked="-1" pinid="8" pinname="GPIO_PU3" parentname="LVDS_1_DUAL[:underscore]CHANNEL_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="146" pinname="SDMMC3_DAT3" parentname="LVDS_1_DUAL[:underscore]CHANNEL_BKL1[:underscore]PWM" />
     <Function name="PWFM-PWM0" checked="-1" pinid="152" pinname="SDMMC3_DAT5" parentname="LVDS_1_DUAL[:underscore]CHANNEL_BKL1[:underscore]PWM" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_CLK-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_CLK-" checked="-1" />
     <Function name="LVDS0_CLK_N" checked="1" pinid="246" pinname="LVDS0_CLK_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_CLK-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_CLK+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_CLK+" checked="-1" />
     <Function name="LVDS0_CLK_P" checked="1" pinid="248" pinname="LVDS0_CLK_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_CLK+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX0-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX0-" checked="-1" />
     <Function name="LVDS0_DATA0_N" checked="1" pinid="252" pinname="LVDS0_DATA0_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX0-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX0+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX0+" checked="-1" />
     <Function name="LVDS0_DATA0_P" checked="1" pinid="254" pinname="LVDS0_DATA0_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX0+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX1-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX1-" checked="-1" />
     <Function name="LVDS0_DATA1_N" checked="1" pinid="258" pinname="LVDS0_DATA1_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX1-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX1+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX1+" checked="-1" />
     <Function name="LVDS0_DATA1_P" checked="1" pinid="260" pinname="LVDS0_DATA1_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX1+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX2+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX2+" checked="-1" />
     <Function name="LVDS0_DATA2_P" checked="1" pinid="266" pinname="LVDS0_DATA2_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX2+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX2-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX2-" checked="-1" />
     <Function name="LVDS0_DATA2_N" checked="1" pinid="264" pinname="LVDS0_DATA2_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX2-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX3-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX3-" checked="-1" />
     <Function name="LVDS0_DATA3_N" checked="1" pinid="270" pinname="LVDS0_DATA3_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX3-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX3+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX3+" checked="-1" />
     <Function name="LVDS0_DATA3_P" checked="1" pinid="272" pinname="LVDS0_DATA3_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_ODD_TX3+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_CLK-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_CLK-" checked="-1" />
     <Function name="LVDS1_CLK_N" checked="1" pinid="276" pinname="LVDS1_CLK_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_CLK-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_CLK+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_CLK+" checked="-1" />
     <Function name="LVDS1_CLK_P" checked="1" pinid="278" pinname="LVDS1_CLK_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_CLK+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX0-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX0-" checked="-1" />
     <Function name="LVDS1_DATA0_N" checked="1" pinid="282" pinname="LVDS1_DATA0_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX0-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX0+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX0+" checked="-1" />
     <Function name="LVDS1_DATA0_P" checked="1" pinid="284" pinname="LVDS1_DATA0_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX0+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX1-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX1-" checked="-1" />
     <Function name="LVDS1_DATA1_N" checked="1" pinid="288" pinname="LVDS1_DATA1_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX1-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX1+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX1+" checked="-1" />
     <Function name="LVDS1_DATA1_P" checked="1" pinid="290" pinname="LVDS1_DATA1_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX1+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX2-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX2-" checked="-1" />
     <Function name="LVDS1_DATA2_N" checked="1" pinid="294" pinname="LVDS1_DATA2_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX2-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX2+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX2+" checked="-1" />
     <Function name="LVDS1_DATA2_P" checked="1" pinid="296" pinname="LVDS1_DATA2_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX2+" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX3-" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX3-" checked="-1" />
     <Function name="LVDS1_DATA3_N" checked="1" pinid="300" pinname="LVDS1_DATA3_N" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX3-" />
-    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX3+" checked="1" />
+    <Category name="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX3+" checked="-1" />
     <Function name="LVDS1_DATA3_P" checked="1" pinid="302" pinname="LVDS1_DATA3_P" parentname="LVDS_1_DUAL[:underscore]CHANNEL_EVEN_TX3+" />
     <Category name="LVDS_1_DUAL[:underscore]CHANNEL_BKL1[:underscore]ON" checked="-1" />
     <Function name="GPIO3_IO13" checked="1" pinid="286" pinname="EIM_AD13" parentname="LVDS_1_DUAL[:underscore]CHANNEL_BKL1[:underscore]ON" />
@@ -4588,20 +4584,20 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="LVDS0.T0DP" checked="1" pinid="91" pinname="LVDS0_CH0_TX3_P" parentname="LVDS_3_SINGLE[:underscore]CHANNEL_TX3+" />
     <Category name="LVDS_3_SINGLE[:underscore]CHANNEL_PWM_0" checked="-1" />
     <Function name="LVDS0.PWM0.OUT" checked="1" pinid="286" pinname="LVDS0_GPIO00" parentname="LVDS_3_SINGLE[:underscore]CHANNEL_PWM_0" />
-    <Category name="ADC_AN1[:underscore]ADC0" checked="1" />
+    <Category name="ADC_AN1[:underscore]ADC0" checked="-1" />
     <Function name="STMPE811_IN0_GPIO0" checked="1" pinid="305" pinname="" parentname="ADC_AN1[:underscore]ADC0" />
-    <Category name="ADC_AN1[:underscore]ADC1" checked="1" />
+    <Category name="ADC_AN1[:underscore]ADC1" checked="-1" />
     <Function name="STMPE811_IN0_GPIO1" checked="1" pinid="307" pinname="" parentname="ADC_AN1[:underscore]ADC1" />
-    <Category name="ADC_AN1[:underscore]ADC2" checked="1" />
+    <Category name="ADC_AN1[:underscore]ADC2" checked="-1" />
     <Function name="STMPE811_IN0_GPIO2" checked="1" pinid="309" pinname="" parentname="ADC_AN1[:underscore]ADC2" />
-    <Category name="ADC_AN1[:underscore]ADC3" checked="1" />
+    <Category name="ADC_AN1[:underscore]ADC3" checked="-1" />
     <Function name="STMPE811_IN0_GPIO3" checked="1" pinid="311" pinname="" parentname="ADC_AN1[:underscore]ADC3" />
     <Category name="ADC_AN1[:underscore]ADC6" checked="-1" />
-    <Function name="DMA.ADC.IN6" checked="-1" pinid="319" pinname="ADC_IN6" parentname="ADC_AN1[:underscore]ADC6" />
-    <Function name="ADC1_SE4a (K20)" checked="1" pinid="175" pinname="PTE0 (K20)" parentname="ADC_AN1[:underscore]ADC6" />
+    <Function name="DMA.ADC.IN6" checked="1" pinid="319" pinname="ADC_IN6" parentname="ADC_AN1[:underscore]ADC6" />
+    <Function name="ADC1_SE4a (K20)" checked="-1" pinid="175" pinname="PTE0 (K20)" parentname="ADC_AN1[:underscore]ADC6" />
     <Category name="ADC_AN1[:underscore]ADC7" checked="-1" />
-    <Function name="DMA.ADC.IN7" checked="-1" pinid="321" pinname="ADC_IN7" parentname="ADC_AN1[:underscore]ADC7" />
-    <Function name="ADC1_SE5a (K20)" checked="1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="ADC_AN1[:underscore]ADC7" />
+    <Function name="DMA.ADC.IN7" checked="1" pinid="321" pinname="ADC_IN7" parentname="ADC_AN1[:underscore]ADC7" />
+    <Function name="ADC1_SE5a (K20)" checked="-1" pinid="173" pinname="PTE1/ LLWU_P0 (K20)" parentname="ADC_AN1[:underscore]ADC7" />
     <Category name="ADC_AN1[:underscore]ADC16" checked="-1" />
     <Function name="ADC1_SE6a (K20)" checked="1" pinid="301" pinname="PTE2/ LLWU_P1 (K20)" parentname="ADC_AN1[:underscore]ADC16" />
     <Category name="ADC_AN1[:underscore]ADC17" checked="-1" />
@@ -4656,13 +4652,13 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="ADC0_SE6b (K20)" checked="1" pinid="245" pinname="PTD5 (K20)" parentname="ADC_AN1[:underscore]ADC10" />
     <Category name="ADC_AN1[:underscore]ADC11" checked="-1" />
     <Function name="ADC0_SE7b (K20)" checked="1" pinid="255" pinname="PTD6/ LLWU_P15 (K20)" parentname="ADC_AN1[:underscore]ADC11" />
-    <Category name="TOUCH_4-wire_AN1[:underscore]TSPX" checked="1" />
+    <Category name="TOUCH_4-wire_AN1[:underscore]TSPX" checked="-1" />
     <Function name="STMPE811_X+" checked="1" pinid="315" pinname="" parentname="TOUCH_4-wire_AN1[:underscore]TSPX" />
-    <Category name="TOUCH_4-wire_AN1[:underscore]TSMX" checked="1" />
+    <Category name="TOUCH_4-wire_AN1[:underscore]TSMX" checked="-1" />
     <Function name="STMPE811_X-" checked="1" pinid="317" pinname="" parentname="TOUCH_4-wire_AN1[:underscore]TSMX" />
-    <Category name="TOUCH_4-wire_AN1[:underscore]TSPY" checked="1" />
+    <Category name="TOUCH_4-wire_AN1[:underscore]TSPY" checked="-1" />
     <Function name="STMPE811_Y+" checked="1" pinid="319" pinname="" parentname="TOUCH_4-wire_AN1[:underscore]TSPY" />
-    <Category name="TOUCH_4-wire_AN1[:underscore]TSMY" checked="1" />
+    <Category name="TOUCH_4-wire_AN1[:underscore]TSMY" checked="-1" />
     <Function name="STMPE811_Y-" checked="1" pinid="321" pinname="" parentname="TOUCH_4-wire_AN1[:underscore]TSMY" />
     <Category name="PWM_1" checked="1" />
     <Function name="PWM1_OUT" checked="1" pinid="2" pinname="GPIO09" parentname="PWM_1" />
@@ -4677,11 +4673,11 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="PWM3_OUT" checked="-1" pinid="162" pinname="SD1_DATA1" parentname="PWM_3" />
     <Function name="PWFM-PWM1" checked="-1" pinid="144" pinname="SDMMC3_DAT2" parentname="PWM_3" />
     <Function name="PWFM-PWM1" checked="-1" pinid="148" pinname="SDMMC3_DAT4" parentname="PWM_3" />
-    <Category name="PWM_4" checked="-1" />
-    <Function name="PWM4_OUT" checked="-1" pinid="8" pinname="SD4_DATA2" parentname="PWM_4" />
+    <Category name="PWM_4" checked="1" />
+    <Function name="PWM4_OUT" checked="1" pinid="8" pinname="SD4_DATA2" parentname="PWM_4" />
     <Function name="PWM4_OUT" checked="-1" pinid="150" pinname="SD1_CMD" parentname="PWM_4" />
     <Function name="PWFM-PWM0" checked="-1" pinid="239" pinname="UART3_RTS_N" parentname="PWM_4" />
-    <Function name="PWFM-PWM0" checked="1" pinid="146" pinname="SDMMC3_DAT3" parentname="PWM_4" />
+    <Function name="PWFM-PWM0" checked="-1" pinid="146" pinname="SDMMC3_DAT3" parentname="PWM_4" />
     <Function name="PWFM-PWM0" checked="-1" pinid="152" pinname="SDMMC3_DAT5" parentname="PWM_4" />
     <Category name="PWM_5" checked="-1" />
     <Function name="FTM0_CH0 (K20)" checked="1" pinid="197" pinname="PTA3 (K20)" parentname="PWM_5" />
@@ -4757,23 +4753,23 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="TIMER_1_CAPTURE[:underscore]2" checked="-1" />
     <Function name="GPT_CAPTURE2" checked="1" pinid="162" pinname="SD1_DATA1" parentname="TIMER_1_CAPTURE[:underscore]2" />
     <Category name="TIMER_1_OUT[:underscore]0" checked="-1" />
-    <Function name="DMA.FTM.CH0" checked="-1" pinid="193" pinname="SPI3_SDO" parentname="TIMER_1_OUT[:underscore]0" />
-    <Function name="FTM1_CH0 (K20)" checked="1" pinid="14" pinname="PTA12 (K20)" parentname="TIMER_1_OUT[:underscore]0" />
+    <Function name="DMA.FTM.CH0" checked="1" pinid="193" pinname="SPI3_SDO" parentname="TIMER_1_OUT[:underscore]0" />
+    <Function name="FTM1_CH0 (K20)" checked="-1" pinid="14" pinname="PTA12 (K20)" parentname="TIMER_1_OUT[:underscore]0" />
     <Function name="FTM1_CH0 (K20)" checked="-1" pinid="305" pinname="PTB0/ LLWU_P5 (K20)" parentname="TIMER_1_OUT[:underscore]0" />
     <Category name="TIMER_1_IN[:underscore]0" checked="-1" />
-    <Function name="DMA.FTM.CH0" checked="-1" pinid="193" pinname="SPI3_SDO" parentname="TIMER_1_IN[:underscore]0" />
-    <Function name="FTM1_CH0 (K20)" checked="1" pinid="14" pinname="PTA12 (K20)" parentname="TIMER_1_IN[:underscore]0" />
+    <Function name="DMA.FTM.CH0" checked="1" pinid="193" pinname="SPI3_SDO" parentname="TIMER_1_IN[:underscore]0" />
+    <Function name="FTM1_CH0 (K20)" checked="-1" pinid="14" pinname="PTA12 (K20)" parentname="TIMER_1_IN[:underscore]0" />
     <Function name="FTM1_CH0 (K20)" checked="-1" pinid="305" pinname="PTB0/ LLWU_P5 (K20)" parentname="TIMER_1_IN[:underscore]0" />
     <Category name="TIMER_1_QD[:underscore]PHA" checked="-1" />
     <Function name="FTM1_QD_ PHA (K20)" checked="1" pinid="14" pinname="PTA12 (K20)" parentname="TIMER_1_QD[:underscore]PHA" />
     <Function name="FTM1_QD_ PHA (K20)" checked="-1" pinid="305" pinname="PTB0/ LLWU_P5 (K20)" parentname="TIMER_1_QD[:underscore]PHA" />
     <Category name="TIMER_1_OUT[:underscore]1" checked="-1" />
-    <Function name="DMA.FTM.CH1" checked="-1" pinid="194" pinname="SPI3_SDI" parentname="TIMER_1_OUT[:underscore]1" />
-    <Function name="FTM1_CH1 (K20)" checked="1" pinid="12" pinname="PTA13/ LLWU_P4 (K20)" parentname="TIMER_1_OUT[:underscore]1" />
+    <Function name="DMA.FTM.CH1" checked="1" pinid="194" pinname="SPI3_SDI" parentname="TIMER_1_OUT[:underscore]1" />
+    <Function name="FTM1_CH1 (K20)" checked="-1" pinid="12" pinname="PTA13/ LLWU_P4 (K20)" parentname="TIMER_1_OUT[:underscore]1" />
     <Function name="FTM1_CH1 (K20)" checked="-1" pinid="307" pinname="PTB1 (K20)" parentname="TIMER_1_OUT[:underscore]1" />
     <Category name="TIMER_1_IN[:underscore]1" checked="-1" />
-    <Function name="DMA.FTM.CH1" checked="-1" pinid="194" pinname="SPI3_SDI" parentname="TIMER_1_IN[:underscore]1" />
-    <Function name="FTM1_CH1 (K20)" checked="1" pinid="12" pinname="PTA13/ LLWU_P4 (K20)" parentname="TIMER_1_IN[:underscore]1" />
+    <Function name="DMA.FTM.CH1" checked="1" pinid="194" pinname="SPI3_SDI" parentname="TIMER_1_IN[:underscore]1" />
+    <Function name="FTM1_CH1 (K20)" checked="-1" pinid="12" pinname="PTA13/ LLWU_P4 (K20)" parentname="TIMER_1_IN[:underscore]1" />
     <Function name="FTM1_CH1 (K20)" checked="-1" pinid="307" pinname="PTB1 (K20)" parentname="TIMER_1_IN[:underscore]1" />
     <Category name="TIMER_1_QD[:underscore]PHB" checked="-1" />
     <Function name="FTM1_QD_ PHB (K20)" checked="1" pinid="12" pinname="PTA13/ LLWU_P4 (K20)" parentname="TIMER_1_QD[:underscore]PHB" />
@@ -4838,32 +4834,32 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Function name="M41.TPM0.CH0" checked="1" pinid="5" pinname="M41_GPIO0_00" parentname="TIMER_M4_1_CH0" />
     <Category name="TIMER_M4_1_CH1" checked="-1" />
     <Function name="M41.TPM0.CH1" checked="1" pinid="7" pinname="M41_GPIO0_01" parentname="TIMER_M4_1_CH1" />
-    <Category name="CAN_1_RX" checked="1" />
+    <Category name="CAN_1_RX" checked="-1" />
     <Function name="FLEXCAN1_RX" checked="1" pinid="12" pinname="GPIO08" parentname="CAN_1_RX" />
     <Function name="FLEXCAN1_RX" checked="-1" pinid="220" pinname="KEY_ROW2" parentname="CAN_1_RX" />
     <Function name="CAN0_RX (K20)" checked="-1" pinid="279" pinname="PTB19 (K20)" parentname="CAN_1_RX" />
-    <Category name="CAN_1_TX" checked="1" />
+    <Category name="CAN_1_TX" checked="-1" />
     <Function name="FLEXCAN1_TX" checked="1" pinid="14" pinname="GPIO07" parentname="CAN_1_TX" />
     <Function name="CAN0_TX (K20)" checked="-1" pinid="295" pinname="PTB18 (K20)" parentname="CAN_1_TX" />
-    <Category name="CAN_2_RX" checked="1" />
+    <Category name="CAN_2_RX" checked="-1" />
     <Function name="FLEXCAN2_RX" checked="1" pinid="16" pinname="KEY_ROW4" parentname="CAN_2_RX" />
     <Function name="CAN1_RX (K20)" checked="-1" pinid="191" pinname="PTE25 (K20)" parentname="CAN_2_RX" />
-    <Category name="CAN_2_TX" checked="1" />
+    <Category name="CAN_2_TX" checked="-1" />
     <Function name="FLEXCAN2_TX" checked="1" pinid="18" pinname="KEY_COL4" parentname="CAN_2_TX" />
     <Function name="CAN1_TX (K20)" checked="-1" pinid="183" pinname="PTE24 (K20)" parentname="CAN_2_TX" />
     <Category name="CAN_3_RX" checked="-1" />
     <Function name="DMA.FLEXCAN2.RX" checked="1" pinid="11" pinname="FLEXCAN2_RX" parentname="CAN_3_RX" />
     <Category name="CAN_3_TX" checked="-1" />
     <Function name="DMA.FLEXCAN2.TX" checked="1" pinid="13" pinname="FLEXCAN2_TX" parentname="CAN_3_TX" />
-    <Category name="ANALOG[:underscore]AUDIO_AAP1_MIC[:underscore]IN" checked="1" />
+    <Category name="ANALOG[:underscore]AUDIO_AAP1_MIC[:underscore]IN" checked="-1" />
     <Function name="SGTL5000_MIC" checked="1" pinid="306" pinname="" parentname="ANALOG[:underscore]AUDIO_AAP1_MIC[:underscore]IN" />
     <Category name="ANALOG[:underscore]AUDIO_AAP1_LIN[:underscore]R" checked="-1" />
     <Function name="SGTL5000_LINEIN_R" checked="1" pinid="312" pinname="" parentname="ANALOG[:underscore]AUDIO_AAP1_LIN[:underscore]R" />
     <Category name="ANALOG[:underscore]AUDIO_AAP1_LIN[:underscore]L" checked="-1" />
     <Function name="SGTL5000_LINEIN_L" checked="1" pinid="310" pinname="" parentname="ANALOG[:underscore]AUDIO_AAP1_LIN[:underscore]L" />
-    <Category name="ANALOG[:underscore]AUDIO_AAP1_HP[:underscore]L" checked="1" />
+    <Category name="ANALOG[:underscore]AUDIO_AAP1_HP[:underscore]L" checked="-1" />
     <Function name="SGTL5000_HP_L" checked="1" pinid="316" pinname="" parentname="ANALOG[:underscore]AUDIO_AAP1_HP[:underscore]L" />
-    <Category name="ANALOG[:underscore]AUDIO_AAP1_HP[:underscore]R" checked="1" />
+    <Category name="ANALOG[:underscore]AUDIO_AAP1_HP[:underscore]R" checked="-1" />
     <Function name="SGTL5000_HP_R" checked="1" pinid="318" pinname="" parentname="ANALOG[:underscore]AUDIO_AAP1_HP[:underscore]R" />
     <Category name="ANALOG[:underscore]AUDIO_MQS[:underscore]R" checked="-1" />
     <Category name="ANALOG[:underscore]AUDIO_MQS[:underscore]L" checked="-1" />
@@ -5499,32 +5495,32 @@ The Pin Filter contains only pins that are freely available on general purpose c
     <Category name="eDP_1_AUX[:underscore]CH0[:underscore]N" checked="-1" />
     <Function name="HDMI_TX0.AUX_M" checked="1" pinid="71" pinname="HDMI_TX0_AUX_N" parentname="eDP_1_AUX[:underscore]CH0[:underscore]N" />
     <Category name="eDP_1_HPD" checked="-1" />
-    <Function name="HDMI_TX0.HPD" checked="-1" pinid="232" pinname="HDMI_TX0_HPD" parentname="eDP_1_HPD" />
-    <Function name="DP_HPD" checked="1" pinid="3" pinname="DP_HPD" parentname="eDP_1_HPD" />
+    <Function name="HDMI_TX0.HPD" checked="1" pinid="232" pinname="HDMI_TX0_HPD" parentname="eDP_1_HPD" />
+    <Function name="DP_HPD" checked="-1" pinid="3" pinname="DP_HPD" parentname="eDP_1_HPD" />
     <Category name="eDP_1_D2-" checked="-1" />
-    <Function name="HDMI_TX0.TX_M_LN_2" checked="-1" pinid="236" pinname="HDMI_TX0_DATA0_EDP2_N" parentname="eDP_1_D2-" />
-    <Function name="LVDS0_TXD0N" checked="1" pinid="252" pinname="LVDS0_TXD0N" parentname="eDP_1_D2-" />
+    <Function name="HDMI_TX0.TX_M_LN_2" checked="1" pinid="236" pinname="HDMI_TX0_DATA0_EDP2_N" parentname="eDP_1_D2-" />
+    <Function name="LVDS0_TXD0N" checked="-1" pinid="252" pinname="LVDS0_TXD0N" parentname="eDP_1_D2-" />
     <Category name="eDP_1_D2+" checked="-1" />
-    <Function name="HDMI_TX0.TX_P_LN_2" checked="-1" pinid="234" pinname="HDMI_TX0_DATA0_EDP2_P" parentname="eDP_1_D2+" />
-    <Function name="LVDS0_TXD0P" checked="1" pinid="254" pinname="LVDS0_TXD0P" parentname="eDP_1_D2+" />
+    <Function name="HDMI_TX0.TX_P_LN_2" checked="1" pinid="234" pinname="HDMI_TX0_DATA0_EDP2_P" parentname="eDP_1_D2+" />
+    <Function name="LVDS0_TXD0P" checked="-1" pinid="254" pinname="LVDS0_TXD0P" parentname="eDP_1_D2+" />
     <Category name="eDP_1_D1-" checked="-1" />
-    <Function name="HDMI_TX0.TX_M_LN_1" checked="-1" pinid="230" pinname="HDMI_TX0_DATA1_EDP1_N" parentname="eDP_1_D1-" />
-    <Function name="LVDS0_TXD1N" checked="1" pinid="258" pinname="LVDS0_TXD1N" parentname="eDP_1_D1-" />
+    <Function name="HDMI_TX0.TX_M_LN_1" checked="1" pinid="230" pinname="HDMI_TX0_DATA1_EDP1_N" parentname="eDP_1_D1-" />
+    <Function name="LVDS0_TXD1N" checked="-1" pinid="258" pinname="LVDS0_TXD1N" parentname="eDP_1_D1-" />
     <Category name="eDP_1_D1+" checked="-1" />
-    <Function name="HDMI_TX0.TX_P_LN_1" checked="-1" pinid="228" pinname="HDMI_TX0_DATA1_EDP1_P" parentname="eDP_1_D1+" />
-    <Function name="LVDS0_TXD1P" checked="1" pinid="260" pinname="LVDS0_TXD1P" parentname="eDP_1_D1+" />
+    <Function name="HDMI_TX0.TX_P_LN_1" checked="1" pinid="228" pinname="HDMI_TX0_DATA1_EDP1_P" parentname="eDP_1_D1+" />
+    <Function name="LVDS0_TXD1P" checked="-1" pinid="260" pinname="LVDS0_TXD1P" parentname="eDP_1_D1+" />
     <Category name="eDP_1_D0-" checked="-1" />
-    <Function name="HDMI_TX0.TX_M_LN_0" checked="-1" pinid="224" pinname="HDMI_TX0_DATA2_EDP0_N" parentname="eDP_1_D0-" />
-    <Function name="LVDS0_TXD2N" checked="1" pinid="264" pinname="LVDS0_TXD2N" parentname="eDP_1_D0-" />
+    <Function name="HDMI_TX0.TX_M_LN_0" checked="1" pinid="224" pinname="HDMI_TX0_DATA2_EDP0_N" parentname="eDP_1_D0-" />
+    <Function name="LVDS0_TXD2N" checked="-1" pinid="264" pinname="LVDS0_TXD2N" parentname="eDP_1_D0-" />
     <Category name="eDP_1_D0+" checked="-1" />
-    <Function name="HDMI_TX0.TX_P_LN_0" checked="-1" pinid="222" pinname="HDMI_TX0_DATA2_EDP0_P" parentname="eDP_1_D0+" />
-    <Function name="LVDS0_TXD2P" checked="1" pinid="266" pinname="LVDS0_TXD2P" parentname="eDP_1_D0+" />
+    <Function name="HDMI_TX0.TX_P_LN_0" checked="1" pinid="222" pinname="HDMI_TX0_DATA2_EDP0_P" parentname="eDP_1_D0+" />
+    <Function name="LVDS0_TXD2P" checked="-1" pinid="266" pinname="LVDS0_TXD2P" parentname="eDP_1_D0+" />
     <Category name="eDP_1_D3-" checked="-1" />
-    <Function name="HDMI_TX0.TX_M_LN_3" checked="-1" pinid="242" pinname="HDMI_TX0_CLK_EDP3_N" parentname="eDP_1_D3-" />
-    <Function name="LVDS0_TXD4N" checked="1" pinid="246" pinname="LVDS0_TXD4N" parentname="eDP_1_D3-" />
+    <Function name="HDMI_TX0.TX_M_LN_3" checked="1" pinid="242" pinname="HDMI_TX0_CLK_EDP3_N" parentname="eDP_1_D3-" />
+    <Function name="LVDS0_TXD4N" checked="-1" pinid="246" pinname="LVDS0_TXD4N" parentname="eDP_1_D3-" />
     <Category name="eDP_1_D3+" checked="-1" />
-    <Function name="HDMI_TX0.TX_P_LN_3" checked="-1" pinid="240" pinname="HDMI_TX0_CLK_EDP3_P" parentname="eDP_1_D3+" />
-    <Function name="LVDS0_TXD4P" checked="1" pinid="248" pinname="LVDS0_TXD4P" parentname="eDP_1_D3+" />
+    <Function name="HDMI_TX0.TX_P_LN_3" checked="1" pinid="240" pinname="HDMI_TX0_CLK_EDP3_P" parentname="eDP_1_D3+" />
+    <Function name="LVDS0_TXD4P" checked="-1" pinid="248" pinname="LVDS0_TXD4P" parentname="eDP_1_D3+" />
     <Category name=" MISC_UNUSABLE_FB[:underscore]TSIZ1" checked="-1" />
     <Category name=" MISC_UNUSABLE_FB&amp;[:underscore]bE23_16[:underscore]b" checked="-1" />
     <Category name=" MISC_UNUSABLE_FB[:underscore]TSIZ0" checked="-1" />
