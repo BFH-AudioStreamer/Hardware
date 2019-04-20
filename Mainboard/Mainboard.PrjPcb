@@ -649,23 +649,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
-DocumentPath=Layout\Audio-Streamer-Mainboard.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VCYBEWJR
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Mainboard\Design Rule Check - Audio-Streamer-Mainboard.html
 DItemRevisionGUID=
@@ -685,7 +668,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_SmartPDF]
-AutoOpenFile=-1
+AutoOpenFile=0
 AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
@@ -710,7 +693,7 @@ SCH_ShowBlankets=-1
 SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
 SCH_ShowNote=-1
 SCH_ShowNoteCollapsed=-1
-SCH_ExpandLogicalToPhysical=-1
+SCH_ExpandLogicalToPhysical=0
 SCH_VariantName=[No Variations]
 SCH_ExpandComponentDesignators=-1
 SCH_ExpandNetlabels=0

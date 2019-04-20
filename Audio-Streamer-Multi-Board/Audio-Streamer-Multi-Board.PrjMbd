@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\Mainboard\Mainboard.PrjPcb
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=Audio-Streamer.MbsDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=af0a0233-0c89-4d8b-abe4-681239937cf1
 
-[Document3]
+[Document2]
 DocumentPath=..\Power-Supply\Power-Supply.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=Audio-Streamer-Assembly.MbaDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,7 +86,41 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=fbc0b6c2-8ff4-4709-8c96-5e5b958d135b
+DocumentUniqueId=ff127c50-36bd-419e-8a15-9b827ddbc563
+
+[Document4]
+DocumentPath=..\Mainboard\Mainboard.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=..\Rotary Encoder\Rotary Encoder.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [OutputGroup1]
 Name=Netlist Outputs
