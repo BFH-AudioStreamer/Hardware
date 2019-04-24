@@ -37,6 +37,11 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=Schematics\Hardware Achitecture.SchDoc
 AnnotationEnabled=1
@@ -446,7 +451,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PUQINPBW
 
 [Document25]
-DocumentPath=Schematics\Audio-Out.Harness
+DocumentPath=Draftsman\Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -463,7 +468,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document26]
-DocumentPath=Schematics\Digital Isolator.Harness
+DocumentPath=Schematics\Audio-Out.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -480,7 +485,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document27]
-DocumentPath=Schematics\Hardware Achitecture.Harness
+DocumentPath=Schematics\Digital Isolator.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -497,7 +502,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document28]
-DocumentPath=Schematics\Toradex Ixora\USB.Harness
+DocumentPath=Schematics\Hardware Achitecture.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -514,7 +519,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document29]
-DocumentPath=Schematics\Toradex Ixora\USB_Connectors.Harness
+DocumentPath=Schematics\Toradex Ixora\USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -531,7 +536,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document30]
-DocumentPath=Schematics\Toradex Ixora\PCI_Express.Harness
+DocumentPath=Schematics\Toradex Ixora\USB_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -548,7 +553,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document31]
-DocumentPath=Schematics\Toradex Ixora\RTC.Harness
+DocumentPath=Schematics\Toradex Ixora\PCI_Express.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -565,7 +570,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document32]
-DocumentPath=Schematics\Toradex Ixora\RGB_Display.Harness
+DocumentPath=Schematics\Toradex Ixora\RTC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -582,7 +587,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document33]
-DocumentPath=Schematics\Toradex Ixora\Miscellaneous.Harness
+DocumentPath=Schematics\Toradex Ixora\RGB_Display.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -599,7 +604,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document34]
-DocumentPath=Schematics\Toradex Ixora\Extension.Harness
+DocumentPath=Schematics\Toradex Ixora\Miscellaneous.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -616,7 +621,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document35]
-DocumentPath=Schematics\Toradex Ixora\Power_Switch.Harness
+DocumentPath=Schematics\Toradex Ixora\Extension.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -633,7 +638,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document36]
-DocumentPath=Schematics\Toradex Ixora\Audio.Harness
+DocumentPath=Schematics\Toradex Ixora\Power_Switch.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -650,7 +655,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document37]
-DocumentPath=Assembly\Audio-Streamer-Mainboard-Assembly-Top.PCBDwf
+DocumentPath=Schematics\Toradex Ixora\Audio.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -667,23 +672,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document38]
-DocumentPath=Assembly\Audio-Streamer-Mainboard-Assembly-Bottom.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document39]
 DocumentPath=Mainboard.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -708,15 +696,50 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Mainboard\Net Status - Audio-Streamer-Mainboard.html
 DItemRevisionGUID=
 
+[Parameter1]
+Name=Revision
+Value=1.0
+
+[Parameter2]
+Name=ProjectName
+Value=Mainboard
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Mainboard.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+LocalReleaseTarget=Release
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Mainboard.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Mainboard.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=0

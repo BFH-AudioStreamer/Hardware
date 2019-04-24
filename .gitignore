@@ -1,6 +1,14 @@
 History
+Release
 *.SchDocPreview
 *.SchDotPreview
+*.HarnessPreview
+*.drc
 *.html
-Thumbs.db
+*.htm
+*.txt
 *.LOG
+
+Thumbs.db
+
+
