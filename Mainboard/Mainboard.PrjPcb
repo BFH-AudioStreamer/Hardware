@@ -688,21 +688,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Mainboard\Design Rule Check - Audio-Streamer-Mainboard.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Mainboard\Net Status - Audio-Streamer-Mainboard.html
-DItemRevisionGUID=
-
 [Parameter1]
-Name=Revision
-Value=1.0
-
-[Parameter2]
 Name=ProjectName
 Value=Mainboard
+
+[Parameter2]
+Name=Revision
+Value=1.0
 
 [Configuration1]
 Name=Sources
