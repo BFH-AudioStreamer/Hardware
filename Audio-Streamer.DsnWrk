@@ -3,12 +3,12 @@ Version=1.0
 [Project1]
 ProjectPath=Audio-Streamer-Multi-Board\Audio-Streamer-Multi-Board.PrjMbd
 [Project2]
-ProjectPath=Mainboard\Mainboard.PrjPcb
-[Project3]
-ProjectPath=Power-Supply\Power-Supply.PrjPcb
-[Project4]
-ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
-[Project5]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
-[Project6]
+[Project3]
 ProjectPath=Toradex Ixora\Ixora.PrjPCB
+[Project4]
+ProjectPath=Mainboard\Mainboard.PrjPcb
+[Project5]
+ProjectPath=Power-Supply\Power-Supply.PrjPcb
+[Project6]
+ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
