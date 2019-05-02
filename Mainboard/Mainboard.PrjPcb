@@ -689,20 +689,84 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Mainboard\Design Rule Check - Audio-Streamer-Mainboard.html
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Release\Gerber\Audio-Streamer-Mainboard.REP
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Revision
-Value=1.0
+Name=ProjectAuthors
+Value=Klossner, Lüthi
 
 [Parameter2]
 Name=ProjectName
 Value=Mainboard
 
 [Parameter3]
-Name=ProjectAuthors
-Value=Klossner, Lüthi
+Name=Revision
+Value=1.0
 
 [Configuration1]
 Name=Sources
@@ -1387,36 +1451,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
