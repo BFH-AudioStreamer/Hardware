@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Mainboard
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -757,6 +757,14 @@ Variation60=Designator=X1001|UniqueId=\JKWGAABC\NVRUEQPH\KFRRDOCZ|Kind=1|Alterna
 Variation61=Designator=R801|UniqueId=\JKWGAABC\TNVSUDTJ\XLBCBVTW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Release\Bill of Materials-Mainboard(Complete).xls
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Release\Bill of Materials-Mainboard(Complete).xlsx
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectAuthors
 Value=Klossner, Lüthi
@@ -843,7 +851,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Mainboard
 
 [OutputGroup1]
 Name=Netlist Outputs

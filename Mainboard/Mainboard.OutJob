@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=Mainboard.OutJob
 Description=
 TargetOutputMedium=Bill of Materials
-VariantName=[No Variations]
+VariantName=Complete
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=HP Universal Printing PCL 6
@@ -38,7 +38,7 @@ OutputMedium5_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
-OutputDocumentPath1=
+OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -79,7 +79,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
-Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Templates\BFH-Sheets\BOM-Template.xlsx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1512|FormHeight=975|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CHF|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\Templates\BFH-Sheets\BOM-Template.xlsx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1512|FormHeight=975|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CHF|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=Comment=True|Footprint=True
 Configuration3_Name4=SortOrder
@@ -118,7 +118,7 @@ Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
 
 [PublishSettings]
-OutputFilePath2=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\Mainboard_Schematics.PDF
+OutputFilePath2=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\Mainboard_Schematics.PDF
 ReleaseManaged2=0
 OutputBasePath2=Release\
 OutputPathMedia2=
@@ -185,7 +185,7 @@ OutputFileNameMulti4=
 UseOutputNameForMulti4=1
 OutputFileNameSpecial4=
 OpenOutput4=0
-OutputFilePath5=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\
+OutputFilePath5=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\
 ReleaseManaged5=0
 OutputBasePath5=Release\
 OutputPathMedia5=
@@ -200,7 +200,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\Mainboard_Schematics.PDF
+RelativeOutputPath2=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\Mainboard_Schematics.PDF
 OpenOutputs2=0
 RelativeOutputPath3=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\
 OpenOutputs3=0
@@ -214,7 +214,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\
+RelativeOutputPath5=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\
 OpenOutputs5=0
 AddToProject5=1
 TimestampFolder5=0
