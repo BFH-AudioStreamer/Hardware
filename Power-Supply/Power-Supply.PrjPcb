@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Power-Supply
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -183,10 +183,6 @@ Variation1=Designator=C4|UniqueId=\IVPUVYEU|Kind=1|AlternatePart=
 Variation2=Designator=C2|UniqueId=\NLRGICTB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Release\Bill of Materials-Power-Supply(Default).xlsx
-DItemRevisionGUID=
-
 [Parameter1]
 Name=ProjectAuthors
 Value=Klossner, Lüthi
@@ -246,7 +242,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Power-Supply
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

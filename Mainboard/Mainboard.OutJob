@@ -17,12 +17,12 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Mainboard.OutJob
 Description=
-TargetOutputMedium=Bill of Materials
+TargetOutputMedium=Assembly Drawing
 VariantName=Complete
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=HP Universal Printing PCL 6
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
@@ -54,8 +54,8 @@ OutputType2=PCBDrawing
 OutputName2=Draftsman
 OutputCategory2=Documentation
 OutputDocumentPath2=Assembly.PCBDwf
-OutputVariantName2=
-OutputEnabled2=0
+OutputVariantName2=Complete
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=1
@@ -68,7 +68,7 @@ OutputName3=Bill of Materials
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
