@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Hardware Achitecture.SchDoc
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=DAC Module Interface|SchDesignator=DAC Module Interface|FileName=DAC Module Interface.SchDoc|SymbolType=Normal|RawFileName=DAC Module Interface.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=1|SchDesignator=Repeat(,1,2)|FileName=DAC.SchDoc|SymbolType=Normal|RawFileName=DAC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=2|SchDesignator=Repeat(,1,2)|FileName=DAC.SchDoc|SymbolType=Normal|RawFileName=DAC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

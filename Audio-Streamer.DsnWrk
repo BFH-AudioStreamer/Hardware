@@ -3,10 +3,20 @@ Version=1.0
 [Project1]
 ProjectPath=Audio-Streamer-Multi-Board\Audio-Streamer-Multi-Board.PrjMbd
 [Project2]
-ProjectPath=Mainboard\Mainboard.PrjPcb
+ProjectPath=Carrier-Board-Apalis\Carrier-Board-Apalis.PrjPcb
 [Project3]
-ProjectPath=Power-Supply\Power-Supply.PrjPcb
+ProjectPath=Carrier-Board-DAC\Carrier-Board-DAC.PrjPcb
 [Project4]
-ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
+ProjectPath=Filter-SK\Filter-SK.PrjPcb
 [Project5]
+ProjectPath=DAC-AK4493-DUAL\DAC-AK4493-DUAL.PrjPcb
+[Project6]
+ProjectPath=Isolator-Magnetic\Isolator-Magnetic.PrjPcb
+[Project7]
+ProjectPath=Power-Supply\Power-Supply.PrjPcb
+[Project8]
+ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
+[Project9]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
+[Project10]
+ProjectPath=..\..\..\Downloads\hardware-master\hardware-master\Mainboard\Mainboard.PrjPcb

@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=Hardware Achitecture.SchDoc
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=DAC_Interface|SchDesignator=DAC_Interface|FileName=DAC_Interface.SchDoc|SymbolType=Normal|RawFileName=DAC_Interface.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=Modules|SchDesignator=Modules|FileName=Modules.SchDoc|SymbolType=Normal|RawFileName=Modules.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=Output|SchDesignator=Output|FileName=Output.SchDoc|SymbolType=Normal|RawFileName=Output.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Hardware Achitecture.SchDoc|Designator=Power Supply|SchDesignator=Power Supply|FileName=Power Supply.SchDoc|SymbolType=Normal|RawFileName=Power Supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

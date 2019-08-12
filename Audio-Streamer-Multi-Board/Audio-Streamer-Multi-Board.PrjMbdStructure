@@ -1,7 +1,0 @@
-Record=TopLevelDocument|FileName=Audio-Streamer.MbsDoc
-Record=DiagramHierarchy|SourceDocument=Audio-Streamer.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\Mainboard\Mainboard.PrjPcb
-Record=SubProject|SourceDocument=Audio-Streamer.MbsDoc|ProjectPath=..\Mainboard\Mainboard.PrjPcb
-Record=DiagramHierarchy|SourceDocument=Audio-Streamer.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Power-Supply\Power-Supply.PrjPcb
-Record=SubProject|SourceDocument=Audio-Streamer.MbsDoc|ProjectPath=..\Power-Supply\Power-Supply.PrjPcb
-Record=DiagramHierarchy|SourceDocument=Audio-Streamer.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\Rotary Encoder\Rotary Encoder.PrjPcb
-Record=SubProject|SourceDocument=Audio-Streamer.MbsDoc|ProjectPath=..\Rotary Encoder\Rotary Encoder.PrjPcb
