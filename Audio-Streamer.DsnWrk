@@ -18,5 +18,3 @@ ProjectPath=Power-Supply\Power-Supply.PrjPcb
 ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
 [Project9]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
-[Project10]
-ProjectPath=..\..\..\Downloads\hardware-master\hardware-master\Mainboard\Mainboard.PrjPcb

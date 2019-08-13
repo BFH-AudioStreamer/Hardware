@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Carrier-Board-Apalis
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -43,6 +43,23 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
+DocumentPath=Carrier-Board-Apalis.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=Schematics\Power_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=200
@@ -59,7 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJNOSKSS
 
-[Document2]
+[Document3]
 DocumentPath=Schematics\Power_Switch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=300
@@ -76,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HRZCKVIS
 
-[Document3]
+[Document4]
 DocumentPath=Schematics\RTC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -93,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ULSGUCUN
 
-[Document4]
+[Document5]
 DocumentPath=Schematics\USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=500
@@ -110,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XSMHVMPS
 
-[Document5]
+[Document6]
 DocumentPath=Schematics\USB_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=600
@@ -127,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KMMMHCRS
 
-[Document6]
+[Document7]
 DocumentPath=Schematics\Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=700
@@ -144,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JTLWIBNV
 
-[Document7]
+[Document8]
 DocumentPath=Schematics\Audio.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=800
@@ -161,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AZORVNVP
 
-[Document8]
+[Document9]
 DocumentPath=Schematics\RGB_Display.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=900
@@ -178,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CCDJKAXY
 
-[Document9]
+[Document10]
 DocumentPath=Schematics\HDMI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1000
@@ -195,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCUZNHWM
 
-[Document10]
+[Document11]
 DocumentPath=Schematics\Serial.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1100
@@ -212,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PUQWEZEY
 
-[Document11]
+[Document12]
 DocumentPath=Schematics\Sata.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1200
@@ -229,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NFITGOFP
 
-[Document12]
+[Document13]
 DocumentPath=Schematics\PCI_Express.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1300
@@ -246,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVPFWWNA
 
-[Document13]
+[Document14]
 DocumentPath=Schematics\Toradex Carrier Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=100
@@ -263,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IKKZXFIV
 
-[Document14]
+[Document15]
 DocumentPath=Schematics\Extension.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1400
@@ -280,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDPNQLAN
 
-[Document15]
+[Document16]
 DocumentPath=Schematics\Miscellaneous.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1500
@@ -297,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPHDKKME
 
-[Document16]
+[Document17]
 DocumentPath=Schematics\DAC_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1600
@@ -314,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SQTWLRSP
 
-[Document17]
+[Document18]
 DocumentPath=Layout\Carrier-Board-Apalis.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -331,7 +348,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PUQINPBW
 
-[Document18]
+[Document19]
 DocumentPath=Schematics\Extension.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -348,7 +365,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=Schematics\PCI_Express.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -365,7 +382,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document21]
 DocumentPath=Schematics\USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -382,7 +399,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=Schematics\Power_Switch.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -399,7 +416,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=Schematics\USB_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -416,7 +433,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=Schematics\Miscellaneous.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -433,7 +450,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document25]
 DocumentPath=Schematics\RGB_Display.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -450,7 +467,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document26]
 DocumentPath=Schematics\Audio.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -467,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document27]
 DocumentPath=Schematics\RTC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -484,7 +501,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document28]
 DocumentPath=..\Libraries\Audio-Streamer.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -501,7 +518,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PBRDWIGJ
 
-[Document28]
+[Document29]
 DocumentPath=..\Libraries\Audio-Streamer.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -518,7 +535,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZSMZRYY
 
-[Document29]
+[Document30]
 DocumentPath=..\Libraries\Ixora.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -535,7 +552,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document31]
 DocumentPath=..\Libraries\Ixora.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -552,7 +569,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LOHELYYU
 
-[Document31]
+[Document32]
 DocumentPath=Schematics\DAC_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -728,7 +745,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Carrier-Board-Apalis
 
 [OutputGroup1]
 Name=Netlist Outputs
