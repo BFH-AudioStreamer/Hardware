@@ -1,4 +1,4 @@
-![BFH Logo](doc/BFH-logo-en.svg)
+![BFH Logo](http://ci.bfh.ch/logo/Engineering%20and%20Information%20Technology)
 
 # Hardware
 
