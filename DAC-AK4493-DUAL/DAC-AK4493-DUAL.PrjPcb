@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for DAC-AK4493-DUAL
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -246,94 +246,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[ProjectVariant1]
-UniqueID=C7CD4AA3-4DAD-4E65-B0F6-80494D4B12A4
-Description=Complete
-AllowFabrication=0
-ParameterCount=0
-VariationCount=61
-Variation1=Designator=C201|UniqueId=\SQJPNXWJ\ZSWHLHQT|Kind=1|AlternatePart= 
-Variation2=Designator=C202|UniqueId=\SQJPNXWJ\KQVTCWHM|Kind=1|AlternatePart= 
-Variation3=Designator=C203|UniqueId=\SQJPNXWJ\YZIKEAHZ|Kind=1|AlternatePart= 
-Variation4=Designator=C205|UniqueId=\SQJPNXWJ\HRBZRJNE|Kind=1|AlternatePart= 
-Variation5=Designator=C209|UniqueId=\SQJPNXWJ\PEDOTAIM|Kind=1|AlternatePart= 
-Variation6=Designator=C212|UniqueId=\SQJPNXWJ\XETUUPPL|Kind=1|AlternatePart= 
-Variation7=Designator=C215|UniqueId=\SQJPNXWJ\KGGIWWON|Kind=1|AlternatePart= 
-Variation8=Designator=C216|UniqueId=\SQJPNXWJ\XAYWAZEA|Kind=1|AlternatePart= 
-Variation9=Designator=C214|UniqueId=\SQJPNXWJ\CWJAQYFA|Kind=1|AlternatePart= 
-Variation10=Designator=R1205|UniqueId=\JKWGAABC\TJYITPZI\FONGSKWA|Kind=1|AlternatePart= 
-Variation11=Designator=C226|UniqueId=\SQJPNXWJ\RGHXEMPY|Kind=1|AlternatePart= 
-Variation12=Designator=C229|UniqueId=\SQJPNXWJ\KJLYRVFR|Kind=1|AlternatePart= 
-Variation13=Designator=C223|UniqueId=\SQJPNXWJ\KVLYYWCR|Kind=1|AlternatePart= 
-Variation14=Designator=C218|UniqueId=\SQJPNXWJ\VQGTUMBI|Kind=1|AlternatePart= 
-Variation15=Designator=C233|UniqueId=\SQJPNXWJ\NBMPFLBG|Kind=1|AlternatePart= 
-Variation16=Designator=C222|UniqueId=\SQJPNXWJ\BXWTFTSY|Kind=1|AlternatePart= 
-Variation17=Designator=C231|UniqueId=\SQJPNXWJ\GQWDZUXD|Kind=1|AlternatePart= 
-Variation18=Designator=C230|UniqueId=\SQJPNXWJ\LLFJKSMA|Kind=1|AlternatePart= 
-Variation19=Designator=C224|UniqueId=\SQJPNXWJ\SWUJXJYO|Kind=1|AlternatePart= 
-Variation20=Designator=R344_A|UniqueId=\1TFCYLDVI\INAANVPG|Kind=1|AlternatePart= 
-Variation21=Designator=R343_B|UniqueId=\2TFCYLDVI\YZEMLDSH|Kind=1|AlternatePart= 
-Variation22=Designator=R343_A|UniqueId=\1TFCYLDVI\YZEMLDSH|Kind=1|AlternatePart= 
-Variation23=Designator=R403|UniqueId=\JUUPCNUD\WDZJAOPN|Kind=1|AlternatePart= 
-Variation24=Designator=R344_B|UniqueId=\2TFCYLDVI\INAANVPG|Kind=1|AlternatePart= 
-Variation25=Designator=R323_A|UniqueId=\1TFCYLDVI\MPCOOONP|Kind=1|AlternatePart= 
-Variation26=Designator=R323_B|UniqueId=\2TFCYLDVI\MPCOOONP|Kind=1|AlternatePart= 
-Variation27=Designator=R322_A|UniqueId=\1TFCYLDVI\KBVQBBJN|Kind=1|AlternatePart= 
-Variation28=Designator=R322_B|UniqueId=\2TFCYLDVI\KBVQBBJN|Kind=1|AlternatePart= 
-Variation29=Designator=R203|UniqueId=\SQJPNXWJ\BBVYVDAT|Kind=1|AlternatePart= 
-Variation30=Designator=R205|UniqueId=\SQJPNXWJ\ALYTNTEL|Kind=1|AlternatePart= 
-Variation31=Designator=R209|UniqueId=\SQJPNXWJ\TXXFCPZS|Kind=1|AlternatePart= 
-Variation32=Designator=R211|UniqueId=\SQJPNXWJ\GKGOREBD|Kind=1|AlternatePart= 
-Variation33=Designator=R212|UniqueId=\SQJPNXWJ\UENGPGJG|Kind=1|AlternatePart= 
-Variation34=Designator=R216|UniqueId=\SQJPNXWJ\FYYASPMV|Kind=1|AlternatePart= 
-Variation35=Designator=R218|UniqueId=\SQJPNXWJ\MLKYLLOU|Kind=1|AlternatePart= 
-Variation36=Designator=R222|UniqueId=\SQJPNXWJ\LFUMYUIH|Kind=1|AlternatePart= 
-Variation37=Designator=C410|UniqueId=\JUUPCNUD\MNCKYBUT|Kind=1|AlternatePart= 
-Variation38=Designator=R314_A|UniqueId=\1TFCYLDVI\YQIVUFYN|Kind=1|AlternatePart= 
-Variation39=Designator=R317_A|UniqueId=\1TFCYLDVI\KSSQGZOH|Kind=1|AlternatePart= 
-Variation40=Designator=R317_B|UniqueId=\2TFCYLDVI\KSSQGZOH|Kind=1|AlternatePart= 
-Variation41=Designator=R316_B|UniqueId=\2TFCYLDVI\LBJKUGLV|Kind=1|AlternatePart= 
-Variation42=Designator=C713|UniqueId=\JKWGAABC\GRNRNFOW\PGSKVLXR|Kind=1|AlternatePart= 
-Variation43=Designator=C720|UniqueId=\JKWGAABC\GRNRNFOW\XOVTMJRD|Kind=1|AlternatePart= 
-Variation44=Designator=C721|UniqueId=\JKWGAABC\GRNRNFOW\LKLAERSC|Kind=1|AlternatePart= 
-Variation45=Designator=R710|UniqueId=\JKWGAABC\GRNRNFOW\TAVKXPFN|Kind=1|AlternatePart= 
-Variation46=Designator=R723|UniqueId=\JKWGAABC\GRNRNFOW\FDCXBJKM|Kind=1|AlternatePart= 
-Variation47=Designator=C800|UniqueId=\JKWGAABC\TNVSUDTJ\OUFMUAHN|Kind=1|AlternatePart= 
-Variation48=Designator=C801|UniqueId=\JKWGAABC\TNVSUDTJ\TKHMQMMA|Kind=1|AlternatePart= 
-Variation49=Designator=R1000|UniqueId=\JKWGAABC\NVRUEQPH\NIVRDBET|Kind=1|AlternatePart= 
-Variation50=Designator=R1001|UniqueId=\JKWGAABC\NVRUEQPH\JBQHKVUN|Kind=1|AlternatePart= 
-Variation51=Designator=R1203|UniqueId=\JKWGAABC\TJYITPZI\JYKGQCSS|Kind=1|AlternatePart= 
-Variation52=Designator=R1204|UniqueId=\JKWGAABC\TJYITPZI\UULMQRNW|Kind=1|AlternatePart= 
-Variation53=Designator=R1302|UniqueId=\JKWGAABC\YLBDVYHW\XDAWQCVS|Kind=1|AlternatePart= 
-Variation54=Designator=T1300|UniqueId=\JKWGAABC\YLBDVYHW\KBGYMTSS|Kind=1|AlternatePart= 
-Variation55=Designator=R1710|UniqueId=\JKWGAABC\YUYESTUR\SHATDLKF|Kind=1|AlternatePart= 
-Variation56=Designator=R1711|UniqueId=\JKWGAABC\YUYESTUR\THEISQAX|Kind=1|AlternatePart= 
-Variation57=Designator=R1802|UniqueId=\JKWGAABC\BUVRQHUD\NHIDJHRQ|Kind=1|AlternatePart= 
-Variation58=Designator=X1001|UniqueId=\JKWGAABC\NVRUEQPH\KFRRDOCZ|Kind=1|AlternatePart= 
-Variation59=Designator=R801|UniqueId=\JKWGAABC\TNVSUDTJ\XLBCBVTW|Kind=1|AlternatePart= 
-Variation60=Designator=MP202|UniqueId=\SQJPNXWJ\JTDHDHKG|Kind=1|AlternatePart= 
-Variation61=Designator=MP200|UniqueId=\SQJPNXWJ\GBXSUCYF|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
 [GeneratedDocument1]
+DocumentPath=Release\Bill of Materials-DAC-AK4493-DUAL.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for DAC-AK4493-DUAL\Design Rule Check - DAC-AK4493-DUAL.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=
-Value=
+Name=ProjectAuthors
+Value=Klossner, Lüthi
 
 [Parameter2]
-Name=Revision
-Value=1.1
-
-[Parameter3]
 Name=ProjectName
 Value=DAC-AK4493-DUAL
 
-[Parameter4]
-Name=ProjectAuthors
-Value=Klossner, Lüthi
+[Parameter3]
+Name=Revision
+Value=1.1
 
 [Configuration1]
 Name=Sources
@@ -409,7 +340,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for DAC-AK4493-DUAL
 
 [OutputGroup1]
 Name=Netlist Outputs

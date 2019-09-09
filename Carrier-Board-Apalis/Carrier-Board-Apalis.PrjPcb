@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Carrier-Board-Apalis
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -586,6 +586,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document33]
+DocumentPath=Draftsman\Assembly.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=C7CD4AA3-4DAD-4E65-B0F6-80494D4B12A4
 Description=Complete
@@ -656,6 +673,10 @@ Variation61=Designator=MP200|UniqueId=\SQJPNXWJ\GBXSUCYF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Release\Bill of Materials-Carrier-Board-Apalis(Complete).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Carrier-Board-Apalis\Design Rule Check - Carrier-Board-Apalis.html
 DItemRevisionGUID=
 
@@ -745,7 +766,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Carrier-Board-Apalis
 
 [OutputGroup1]
 Name=Netlist Outputs
