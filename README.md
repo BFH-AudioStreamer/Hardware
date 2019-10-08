@@ -15,6 +15,9 @@ You can find PDF files of the schematics and the PCB gerber files in the Release
 ## Changes
 See [CHANGELOG.md](CHANGELOG.md).
 
+## Wiki
+[To get more information about the circuits design visit the project wiki.](https://github.com/BFH-AudioStreamer/Hardware/wiki)
+
 ## Authors
 - Stefan Lüthi (Maintainer)
 
