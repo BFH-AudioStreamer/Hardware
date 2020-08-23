@@ -1,0 +1,21 @@
+site_name: 'BFH Audio-Streamer'
+docs_dir: 'doc'
+
+theme:
+  name: material
+
+repo_url: https://github.com/BFH-AudioStreamer/Hardware
+repo_name: BFH-AudioStreamer/Hardware
+  
+nav:
+  - Home: 'index.md'
+  - Concept: 'concept.md'
+  - Modules: 'modules.md'
+  - CAD: 'cad.md'
+  - Measurements: 'measurements.md'
+    
+    
+
+
+
+
