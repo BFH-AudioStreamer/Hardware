@@ -3,9 +3,13 @@ docs_dir: 'doc'
 
 theme:
   name: material
-
+  icon:
+    repo: fontawesome/brands/github
 repo_url: https://github.com/BFH-AudioStreamer/Hardware
 repo_name: BFH-AudioStreamer/Hardware
+edit_uri: ""
+
+
   
 nav:
   - Home: 'index.md'
