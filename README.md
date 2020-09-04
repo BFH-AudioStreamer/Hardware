@@ -1,9 +1,9 @@
-![BFH Logo](http://ci.bfh.ch/logo/Engineering%20and%20Information%20Technology)
+![BFH Logo](/doc/img/BFH-logo-en.svg)
 
 # Hardware
 
 This repository contains all the schematics and pcb designs developed for the
-Audio-Streamer project. Please visit the [wiki](https://github.com/BFH-AudioStreamer/hardware/wiki) for the hardware description and 
+Audio-Streamer project. Please visit the [wiki](https://bfh-audiostreamer.github.io/Hardware) for the hardware description and 
 audio measurements.
 
 You can find PDF files of the schematics and the PCB gerber files in the Release section.
@@ -16,7 +16,7 @@ You can find PDF files of the schematics and the PCB gerber files in the Release
 See [CHANGELOG.md](CHANGELOG.md).
 
 ## Wiki
-[To get more information about the circuits design visit the project wiki.](https://github.com/BFH-AudioStreamer/Hardware/wiki)
+[To get more information about the circuits design visit the project wiki.](https://bfh-audiostreamer.github.io/Hardware)
 
 ## Authors
 - Stefan Lüthi (Maintainer)
