@@ -18,3 +18,5 @@ ProjectPath=Power-Supply\Power-Supply.PrjPcb
 ProjectPath=Rotary Encoder\Rotary Encoder.PrjPcb
 [Project9]
 ProjectPath=Libraries\Audio-Streamer.LibPkg
+[Project10]
+ProjectPath=PCB-Panel-DAC\PCB-Panel-DAC.PrjPcb

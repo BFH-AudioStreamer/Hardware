@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Mainboard.OutJob
+Name=Carrier-Board-Apalis.OutJob
 Description=
 TargetOutputMedium=Assembly Drawing
 VariantName=Complete
@@ -35,6 +35,8 @@ OutputMedium4=Gerber
 OutputMedium4_Type=GeneratedFiles
 OutputMedium5=Bill of Materials
 OutputMedium5_Type=GeneratedFiles
+OutputMedium6=PnP
+OutputMedium6_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
@@ -46,6 +48,7 @@ OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -61,6 +64,7 @@ OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=1
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A3|PaperIndex=8
 OutputType3=BOM_PartType
@@ -74,6 +78,7 @@ OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=1
+OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=ColumnNameFormat
@@ -99,6 +104,7 @@ OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=1
 OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
@@ -113,9 +119,25 @@ OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=2
 OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+OutputType6=Pick Place
+OutputName6=Generates pick and place files
+OutputCategory6=Assembly
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=1
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:14|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:12|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:2|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:13|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:5|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:6|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:9|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:10|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15
 
 [PublishSettings]
 OutputFilePath2=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\Mainboard_Schematics.PDF
@@ -145,7 +167,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\
+OutputFilePath3=C:\Users\lts6\Documents\Audio-Streamer\Hardware\Carrier-Board-Apalis\Release\
 ReleaseManaged3=0
 OutputBasePath3=Release\
 OutputPathMedia3=
@@ -153,7 +175,7 @@ OutputPathMediaValue3=Release
 OutputPathOutputer3=
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
-OutputFileName3=Mainboard.PDF
+OutputFileName3=Carrier-Board-Apalis.PDF
 OutputFileNameMulti3==ProjectName+_Assembly_Drawing
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3==ProjectName
@@ -185,7 +207,7 @@ OutputFileNameMulti4=
 UseOutputNameForMulti4=1
 OutputFileNameSpecial4=
 OpenOutput4=0
-OutputFilePath5=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\
+OutputFilePath5=C:\Users\lts6\Documents\Audio-Streamer\Hardware\Carrier-Board-Apalis\Release\
 ReleaseManaged5=0
 OutputBasePath5=Release\
 OutputPathMedia5=
@@ -198,11 +220,24 @@ OutputFileNameMulti5=
 UseOutputNameForMulti5=1
 OutputFileNameSpecial5=
 OpenOutput5=0
+OutputFilePath6=C:\Users\lts6\Documents\Audio-Streamer\Hardware\PCB-Panel-DAC\.\Release\
+ReleaseManaged6=0
+OutputBasePath6=.\
+OutputPathMedia6=Release
+OutputPathMediaValue6=Release
+OutputPathOutputer6=[Output Type]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6=
+UseOutputNameForMulti6=1
+OutputFileNameSpecial6=
+OpenOutput6=0
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\Mainboard_Schematics.PDF
 OpenOutputs2=0
-RelativeOutputPath3=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\
+RelativeOutputPath3=C:\Users\lts6\Documents\Audio-Streamer\Hardware\Carrier-Board-Apalis\Release\
 OpenOutputs3=0
 RelativeOutputPath4=\\vmware-host\Shared Folders\Audio-Streamer\hardware\Mainboard\Release\
 OpenOutputs4=0
@@ -214,7 +249,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\Users\stefan\Documents\Audio-Streamer\hardware\Mainboard\Release\
+RelativeOutputPath5=C:\Users\lts6\Documents\Audio-Streamer\Hardware\Carrier-Board-Apalis\Release\
 OpenOutputs5=0
 AddToProject5=1
 TimestampFolder5=0
@@ -224,4 +259,14 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
+RelativeOutputPath6=C:\Users\lts6\Documents\Audio-Streamer\Hardware\PCB-Panel-DAC\.\Release\
+OpenOutputs6=0
+AddToProject6=0
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 
